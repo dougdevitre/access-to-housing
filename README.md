@@ -156,44 +156,30 @@ flowchart TB
 Six specialized pods extend the core modules with deep analytical frameworks:
 
 ```mermaid
-mindmap
-  root((🏠 Access to<br>Housing))
-    📊 Market Intelligence
-      Pricing Trends
-      Absorption Rates
-      Housing Cycles
-      Demographic Forecasting
-      16 modules
-    💰 Investment & Deal
-      Opportunity Scanning
-      Underwriting
-      Portfolio Analysis
-      Syndication & REIT
-      16 modules
-    🌊 Risk & Climate
-      Flood / Fire / Heat
-      Insurance Health
-      Zoning Risk
-      Resilience Planning
-      6 modules
-    🏡 Property Intelligence
-      AVM & Valuation
-      MLS Analytics
-      Rental Intelligence
-      Pricing Strategy
-      10 modules
-    📋 Brokerage Ops
-      CRM Workflows
-      Lead Generation
-      Transaction Mgmt
-      Client Experience
-      18 modules
-    🎯 Brokerage Strategy
-      Growth Modeling
-      Recruiting
-      Financial Planning
-      KPI Reporting
-      10 modules
+flowchart TD
+    HUB["🏠 Access to Housing\n74 Modules"]
+
+    HUB --> MI["📊 Market Intelligence\n16 modules"]
+    HUB --> ID["💰 Investment & Deal\n16 modules"]
+    HUB --> RC["🌊 Risk & Climate\n6 modules"]
+    HUB --> PI["🏡 Property Intelligence\n10 modules"]
+    HUB --> BO["📋 Brokerage Ops\n18 modules"]
+    HUB --> BS["🎯 Brokerage Strategy\n10 modules"]
+
+    MI --> MI1["Pricing Trends"] & MI2["Absorption Rates"] & MI3["Housing Cycles"] & MI4["Demographics"]
+    ID --> ID1["Underwriting"] & ID2["Portfolio Analysis"] & ID3["Syndication"] & ID4["Capital Flows"]
+    RC --> RC1["Flood / Fire / Heat"] & RC2["Insurance Health"] & RC3["Zoning Risk"]
+    PI --> PI1["AVM & Valuation"] & PI2["MLS Analytics"] & PI3["Rental Intelligence"]
+    BO --> BO1["CRM Workflows"] & BO2["Lead Generation"] & BO3["Transaction Mgmt"]
+    BS --> BS1["Growth Modeling"] & BS2["Recruiting"] & BS3["Financial Planning"]
+
+    style HUB fill:#3b82f6,stroke:#1e40af,color:#fff
+    style MI fill:#dbeafe,stroke:#3b82f6
+    style ID fill:#fef3c7,stroke:#f59e0b
+    style RC fill:#fee2e2,stroke:#ef4444
+    style PI fill:#d1fae5,stroke:#10b981
+    style BO fill:#f3e8ff,stroke:#8b5cf6
+    style BS fill:#fce7f3,stroke:#ec4899
 ```
 
 <details>
@@ -377,15 +363,22 @@ flowchart LR
 
 ### Global Opportunity Scanner (Module 7)
 
-```mermaid
-quadrantChart
-    title Investment Opportunity Tiers
-    x-axis Low Demand Signal --> High Demand Signal
-    y-axis Low Supply Advantage --> High Supply Advantage
-    quadrant-1 Top Tier (20-25)
-    quadrant-2 Watch (10-14)
-    quadrant-3 Avoid (below 10)
-    quadrant-4 Emerging (15-19)
+```
+                    INVESTMENT OPPORTUNITY TIERS
+
+     High Supply  │  Watch (10-14)    │  Top Tier (20-25)
+      Advantage   │  Monitor for      │  High conviction
+                  │  improvement      │  Move now
+                  │                   │
+    ──────────────┼───────────────────┼──────────────────
+                  │                   │
+     Low Supply   │  Avoid (<10)      │  Emerging (15-19)
+      Advantage   │  Material         │  Strong thesis
+                  │  headwinds        │  with uncertainty
+                  │                   │
+                  └───────────────────┴──────────────────
+                   Low Demand          High Demand
+                     Signal              Signal
 ```
 
 **Five-factor scoring (1-5 each, total 5-25):**
@@ -599,14 +592,16 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidel
 | **Reference Pods** | New frameworks, case studies, methodology docs |
 
 ```mermaid
-gitGraph
-    commit id: "Core Modules"
-    commit id: "Reference Pods"
-    branch feature
-    commit id: "Your Contribution"
-    checkout main
-    merge feature id: "PR Merged"
-    commit id: "Community Grows"
+flowchart LR
+    A["🍴 Fork Repo"] --> B["🌿 Create Branch"]
+    B --> C["✏️ Make Changes"]
+    C --> D["✅ Add Tests"]
+    D --> E["📬 Submit PR"]
+    E --> F["🎉 Merged!"]
+
+    style A fill:#f3f4f6,stroke:#6b7280
+    style E fill:#dbeafe,stroke:#3b82f6
+    style F fill:#d1fae5,stroke:#10b981
 ```
 
 ---
