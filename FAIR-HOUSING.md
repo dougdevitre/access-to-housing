@@ -39,6 +39,12 @@ If a user request would violate Fair Housing, respond with:
 - Migration flow analysis uses IRS SOI, Census ACS, and mover data — aggregate economic and environmental signals
 - Never frames migration in terms of demographic group movement
 
+### Community Trust & Transparency Pod
+- **Community-Reported Conditions**: Complaint rates normalized per 1,000 housing units — never raw counts by area. No demographic overlays on service request data
+- **Displacement Early Warning**: Uses economic indicators only (rent burden, eviction rates, investor purchase share). Never analyzes who is being displaced by demographic group — only whether displacement pressure exists based on housing market metrics
+- **Government Accountability Scorecard**: Measures government responsiveness using objective metrics (response times, resolution rates). Equity analysis compares service quality across areas without identifying resident demographics
+- **Civic Transparency Tracker**: Analyzes government decisions on land use and zoning. Beneficiary analysis focuses on economic impact (existing residents vs. outside capital), not demographic composition
+
 ## Applicable Law
 
 - **Federal**: Fair Housing Act (42 U.S.C. §§ 3601–3619)
