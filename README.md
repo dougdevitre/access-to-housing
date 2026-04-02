@@ -31,7 +31,7 @@
 - [The Problem](#the-problem)
 - [How It Works](#-how-it-works)
 - [Core Modules](#-core-modules)
-- [Reference Pods](#-reference-pods--74-modules)
+- [Reference Pods](#-reference-pods--80-modules)
 - [Quick Start](#-quick-start)
 - [Platform Architecture](#-platform-architecture)
 - [Key Workflows](#-key-workflows)
@@ -155,39 +155,6 @@ flowchart TB
 
 Seven specialized pods extend the core modules with deep analytical frameworks:
 
-```mermaid
-flowchart TD
-    HUB["🏠 Access to Housing\n80 Modules"]
-
-    HUB --> MI["📊 Market Intelligence\n16 modules"]
-    HUB --> ID["💰 Investment & Deal\n16 modules"]
-    HUB --> RC["🌊 Risk & Climate\n6 modules"]
-    HUB --> PI["🏡 Property Intelligence\n10 modules"]
-    HUB --> BO["📋 Brokerage Ops\n18 modules"]
-    HUB --> BS["🎯 Brokerage Strategy\n10 modules"]
-    HUB --> CT["🏘️ Community Trust\n6 modules"]
-
-    MI --> MI1["Pricing Trends"] & MI2["Absorption Rates"] & MI3["Housing Cycles"] & MI4["Demographics"]
-    ID --> ID1["Underwriting"] & ID2["Portfolio Analysis"] & ID3["Syndication"] & ID4["Capital Flows"]
-    RC --> RC1["Flood / Fire / Heat"] & RC2["Insurance Health"] & RC3["Zoning Risk"]
-    PI --> PI1["AVM & Valuation"] & PI2["MLS Analytics"] & PI3["Rental Intelligence"]
-    BO --> BO1["CRM Workflows"] & BO2["Lead Generation"] & BO3["Transaction Mgmt"]
-    BS --> BS1["Growth Modeling"] & BS2["Recruiting"] & BS3["Financial Planning"]
-    CT --> CT1["Civic Transparency"] & CT2["Displacement Warning"] & CT3["Accountability"]
-
-    style HUB fill:#3b82f6,stroke:#1e40af,color:#fff
-    style MI fill:#dbeafe,stroke:#3b82f6
-    style ID fill:#fef3c7,stroke:#f59e0b
-    style RC fill:#fee2e2,stroke:#ef4444
-    style PI fill:#d1fae5,stroke:#10b981
-    style BO fill:#f3e8ff,stroke:#8b5cf6
-    style BS fill:#fce7f3,stroke:#ec4899
-    style CT fill:#fef9c3,stroke:#ca8a04
-```
-
-<details>
-<summary><strong>View module counts by pod</strong></summary>
-
 | Pod | Modules | Key Frameworks |
 |-----|:-------:|----------------|
 | **Market Intelligence** | 16 | Pricing trends, absorption rates, inventory analysis, demographic forecasting, housing cycles, affordability indices, migration tracking |
@@ -197,8 +164,6 @@ flowchart TD
 | **Brokerage Ops** | 18 | CRM health, lead generation, pipeline management, buyer/seller workflows, transaction management, marketing, client experience |
 | **Brokerage Strategy** | 10 | Brokerage growth modeling, recruiting, financial modeling, strategic planning, KPI reporting, agent development pathways |
 | **Community Trust** | 6 | Civic transparency tracking, community-reported conditions, displacement early warning, government accountability, neighborhood resources, engagement guide |
-
-</details>
 
 ---
 
@@ -258,7 +223,7 @@ flowchart TB
     subgraph ANALYSIS ["ANALYTICAL FRAMEWORKS"]
         direction LR
         CORE["7 Core\nModules"]
-        PODS["6 Reference\nPods"]
+        PODS["7 Reference\nPods"]
     end
 
     subgraph OUTPUT ["STRUCTURED OUTPUT"]
@@ -503,7 +468,7 @@ All analyses cite **primary, verifiable sources** with vintage dates. No invente
 </tr>
 </table>
 
-See [`assets/data-sources.md`](assets/data-sources.md) for the full reference with 50+ sources and direct links.
+See [`assets/data-sources.md`](assets/data-sources.md) for the full reference with 65+ sources and direct links.
 
 ---
 
