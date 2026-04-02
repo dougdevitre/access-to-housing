@@ -64,7 +64,7 @@ Access to Housing is a [Claude Custom Skill](https://docs.claude.com) that acts 
 ```mermaid
 flowchart LR
     A["🗣️ Your Question"] --> B["🧠 Module Selection"]
-    B --> C["📡 Data Sources\n(50+ APIs & Databases)"]
+    B --> C["📡 Data Sources\n(65+ APIs & Databases)"]
     C --> D["⚖️ Fair Housing\nCompliance Check"]
     D --> E["📊 Structured\nAnalysis Output"]
 
@@ -463,6 +463,14 @@ All analyses cite **primary, verifiable sources** with vintage dates. No invente
 - Trust for Public Land
 - FBI UCR/NIBRS
 - LEHD LODES employment
+
+</td>
+</tr>
+<tr>
+<td colspan="3">
+
+**Community Trust & Civic Transparency**
+- Eviction Lab · NLIHC · HUD Counseling · 211 United Way · Legal Services Corp · Municipal 311 / Open Data Portals
 
 </td>
 </tr>
