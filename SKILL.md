@@ -1,18 +1,20 @@
 ---
 name: access-to-housing
 metadata:
-  version: "30.0"
+  version: "31.0"
   author: Doug Devitre
 description: |
   Access to Housing — open-source PropTech intelligence platform for real estate professionals,
   investors, housing advocates, and researchers. Part of CoTrackPro's Access Projects. Use for
   housing market analysis, property investment research, neighborhood scoring, permit intelligence,
   supply forecasting, climate risk, satellite development detection, infrastructure heatmaps, and
-  opportunity scanning. 7 core modules + 6 reference pods (74 total). Fair Housing-safe by default.
+  opportunity scanning, community trust, civic transparency, and displacement risk analysis.
+  7 core modules + 7 reference pods (80 total). Fair Housing-safe by default.
   Trigger for: "analyze this market", "neighborhood score", "where to invest", "housing supply
   forecast", "climate risk real estate", "permit pipeline", "best areas to buy", "development
   pipeline", "migration trends", "opportunity scan", "cap rate", "housing inventory", "livability
-  score", "climate migration", "infrastructure growth".
+  score", "climate migration", "infrastructure growth", "community trust", "displacement risk",
+  "zoning decisions", "civic transparency", "government accountability", "housing resources".
 ---
 
 # Access to Housing — PropTech Intelligence Platform
@@ -56,6 +58,11 @@ questions, or **Neighborhood Livability Score** for buyer/renter questions.
 | Where is growth heading in this city? | Module 5: Infrastructure Growth Heatmap |
 | Should I worry about floods/fires/sea rise? | Module 6: Climate Migration Housing Model |
 | Where globally is the best investment? | Module 7: Global Property Opportunity Scanner |
+| What zoning/development decisions is the city making? | Community Trust Pod: Civic Transparency Tracker |
+| Are residents being displaced by investment? | Community Trust Pod: Displacement Early Warning |
+| Is the city responsive to housing complaints? | Community Trust Pod: Government Accountability Scorecard |
+| What housing resources exist in this area? | Community Trust Pod: Neighborhood Resource Directory |
+| How can I participate in local housing decisions? | Community Trust Pod: Community Engagement Guide |
 | Full market brief | All 7 modules in order, wrapped in Platform Brief |
 
 ---
@@ -833,6 +840,18 @@ Use these sources by category. Always cite source name and vintage when referenc
 - Walk Score / Transit Score API — walkscore.com
 - Trust for Public Land ParkScore — tpl.org/parkscore
 - FBI Uniform Crime Report (UCR) / NIBRS — ucr.fbi.gov
+
+### Community Trust & Civic Transparency
+- Municipal council minutes and planning commission agendas — city clerk websites
+- 311 / service request portals — municipal open data portals
+- Eviction Lab — evictionlab.org (eviction filing rates by geography)
+- HUD Housing Counseling Agency directory — hud.gov/findacounselor
+- National Low Income Housing Coalition — nlihc.org (affordable housing data)
+- 211 United Way — 211.org (community resource directory)
+- Legal Services Corporation — lsc.gov (legal aid provider directory)
+- CDFI Fund — cdfifund.gov (community development lenders)
+- National Fair Housing Alliance — nationalfairhousing.org
+- USDA Food Access Research Atlas — ers.usda.gov (food desert mapping)
 
 ---
 

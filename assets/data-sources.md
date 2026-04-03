@@ -140,3 +140,24 @@ Load this file when a user asks "where do I get data for X" or needs source cita
 | Experian Connect | experian.com | Credit reports for landlords | Paid |
 | Avail | avail.co | Screening + rental management | Freemium |
 | AppFolio | appfolio.com | Full PM + screening | Paid |
+
+---
+
+## Civic Transparency & Community Trust
+| Source | URL | Data | Cadence |
+|--------|-----|------|---------|
+| Municipal Council Minutes | (varies by city) | Zoning votes, ordinances, land use decisions | Per meeting |
+| Planning Commission Agendas | (varies by city) | Hearing schedules, staff reports, applications | Per meeting |
+| 311 / Service Request Portals | (varies — e.g., 311.city.gov) | Resident complaints, response times, resolution | Real-time |
+| HUD Housing Counseling | hud.gov/findacounselor | HUD-approved counseling agencies by ZIP | Ongoing |
+| Eviction Lab | evictionlab.org | Eviction filing rates by geography | Annual |
+| National Low Income Housing Coalition | nlihc.org | Affordable housing inventory, gap analysis | Annual |
+| 211 United Way | 211.org | Community resource directory | Ongoing |
+| Legal Services Corporation | lsc.gov | Legal aid provider directory | Ongoing |
+| CDFI Fund Locator | cdfifund.gov | Community development lenders | Ongoing |
+| National Fair Housing Alliance | nationalfairhousing.org | Fair Housing org directory | Ongoing |
+| NeighborWorks America | neighborworks.org | Community development network | Ongoing |
+| USDA Food Access Research Atlas | ers.usda.gov/data-products/food-access-research-atlas | Food desert mapping | Updated periodically |
+| HUD AFFH Data & Mapping | huduser.gov/portal/datasets | Fair housing assessment data | Updated periodically |
+| US PIRG Transparency Reports | uspirg.org | Government transparency rankings | Annual |
+| Open Data Portals | data.gov / city portals | 311, code enforcement, permits, budgets | Varies |
