@@ -39,6 +39,7 @@
 - [Data Sources](#-data-sources)
 - [Fair Housing Compliance](#-fair-housing-compliance)
 - [Repository Structure](#-repository-structure)
+- [FAQ](#-faq)
 - [CoTrackPro Ecosystem](#-cotrackpro-access-projects)
 - [Contributing](#-contributing)
 - [License & Contact](#-license--contact)
@@ -752,6 +753,8 @@ access-to-housing/
 │   ├── api-reference.md                Developer API guide — endpoints, auth, rate limits
 │   ├── output-schemas.md               JSON schemas for all scoring module outputs
 │   ├── example-prompts.md              Test prompts for every module with validation checklist
+│   ├── sample-output.md                Complete Platform Brief example (Nashville, TN)
+│   ├── international-guide.md          Adaptation guide for UK, Canada, Australia markets
 │   └── glossary.md                     Plain-language definitions for non-expert users
 │
 ├── 📂 references/                       7 analytical pods (80 total modules)
@@ -769,6 +772,58 @@ access-to-housing/
     ├── fair-housing-concern.yml         Flag a Fair Housing compliance issue
     └── community-resource.yml           Submit a local housing resource
 ```
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><strong>Is this an app I can download?</strong></summary>
+
+No — Access to Housing is a **Claude Custom Skill** (a `.skill` file you upload to Claude.ai). It turns Claude into a specialized PropTech intelligence analyst. There's no separate app, database, or server to run. You ask questions in plain English and get structured, cited analysis back.
+</details>
+
+<details>
+<summary><strong>Where does the data come from?</strong></summary>
+
+All analysis references **65+ authoritative public and commercial data sources** — Census Bureau, FHFA, Zillow, Redfin, First Street Foundation, FEMA, Walk Score, Eviction Lab, and more. Every data point cites its source name and vintage date so you can verify it. The platform never invents data. See [`assets/data-sources.md`](assets/data-sources.md) for the full list.
+</details>
+
+<details>
+<summary><strong>Is this Fair Housing compliant?</strong></summary>
+
+Yes — Fair Housing compliance is **architectural, not an afterthought**. Every module, scoring rubric, and output template is designed to avoid protected class characteristics and proxies. Crime uses density-normalized rates, schools are scored on proximity only, neighborhoods are compared on objective infrastructure metrics. See [`FAIR-HOUSING.md`](FAIR-HOUSING.md) for the full framework.
+</details>
+
+<details>
+<summary><strong>Can I use this for my local market?</strong></summary>
+
+Yes. The platform works for any US market. Ask about a specific city, county, neighborhood, or metro area. For international markets, the frameworks are adaptable — see [`assets/international-guide.md`](assets/international-guide.md) for country-specific guidance.
+</details>
+
+<details>
+<summary><strong>I'm a developer — how do I integrate this?</strong></summary>
+
+Start with the [For Developers](#-for-developers) section. Key resources: JSON output schemas ([`assets/output-schemas.md`](assets/output-schemas.md)), data source API reference ([`assets/api-reference.md`](assets/api-reference.md)), example prompts with expected outputs ([`assets/example-prompts.md`](assets/example-prompts.md)), and repo context ([`CLAUDE.md`](CLAUDE.md)).
+</details>
+
+<details>
+<summary><strong>I'm a housing advocate — how does this help my community?</strong></summary>
+
+The **Community Trust & Transparency Pod** was built specifically for communities. Use the Civic Transparency Tracker to see what zoning decisions your city is making, the Displacement Early Warning to identify neighborhoods at risk, the Government Accountability Scorecard to measure responsiveness, and the Neighborhood Resource Directory to find help. See the [Community Trust Assessment](#community-trust-assessment) workflow.
+</details>
+
+<details>
+<summary><strong>What does a real output look like?</strong></summary>
+
+See [`assets/sample-output.md`](assets/sample-output.md) for a complete multi-module Platform Brief showing Nashville, TN — including Permit Intelligence, Livability Score, Displacement Early Warning, and Government Accountability Scorecard with cited data points and next steps.
+</details>
+
+<details>
+<summary><strong>How do I contribute?</strong></summary>
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). High-impact areas: local data sources, community resource directories, Fair Housing review, module expansions, and developer tools. We especially welcome Community Trust contributions from people with local knowledge.
+</details>
 
 ---
 
