@@ -705,8 +705,12 @@ access-to-housing/
 ├── 🤝 CONTRIBUTING.md                  How to contribute
 ├── 📜 LICENSE                           MIT
 │
+├── 🧠 CLAUDE.md                        Developer context for Claude Code contributors
+│
 ├── 📂 assets/
 │   ├── data-sources.md                 65+ authoritative data sources with links
+│   ├── api-reference.md                Developer API guide — endpoints, auth, rate limits
+│   ├── output-schemas.md               JSON schemas for all scoring module outputs
 │   └── glossary.md                     Plain-language definitions for non-expert users
 │
 ├── 📂 references/                       7 analytical pods (80 total modules)

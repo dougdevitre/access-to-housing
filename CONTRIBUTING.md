@@ -93,6 +93,37 @@ Before submitting any contribution, verify:
 
 Be kind, be constructive, be collaborative. This project exists to make housing intelligence more accessible — contributions should reflect that mission.
 
+## For Developers
+
+If you're building applications that integrate with Access to Housing, these resources are for you:
+
+| Resource | Path | What It Contains |
+|----------|------|------------------|
+| **Output Schemas** | [`assets/output-schemas.md`](assets/output-schemas.md) | JSON Schema definitions for all scoring modules — Livability, Opportunity Scanner, Displacement, Accountability, Conditions, Platform Brief |
+| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 65+ data sources organized by auth type (free/key/paid), with endpoints, rate limits, and integration patterns |
+| **Glossary** | [`assets/glossary.md`](assets/glossary.md) | 40+ term definitions for building user-facing interfaces |
+| **CLAUDE.md** | [`CLAUDE.md`](CLAUDE.md) | Repo context for developers using Claude Code — architecture decisions, file relationships, sync points |
+
+### Developer Contribution Areas
+
+| Area | Examples |
+|------|---------|
+| **Output schemas** | Add schemas for modules that don't have them yet, improve validation rules |
+| **API integrations** | Document new API endpoints, write example queries, test rate limits |
+| **Data pipelines** | Build scripts to fetch and normalize data from free sources (Census, FEMA, Walk Score) |
+| **Validation tools** | Create Fair Housing compliance linters that check outputs against schema rules |
+| **Visualization** | Build dashboards or maps that consume module outputs using the JSON schemas |
+
+### Integration Quick Start
+
+```
+1. Review output schemas     → assets/output-schemas.md
+2. Pick your data stack      → assets/api-reference.md (see Integration Patterns)
+3. Understand compliance     → FAIR-HOUSING.md
+4. Build and validate        → Use JSON schemas for output validation
+5. Cite sources with vintage → Every data point needs source + date
+```
+
 ## Questions?
 
 - Open a [discussion](https://github.com/dougdevitre/access-to-housing/discussions) or [issue](https://github.com/dougdevitre/access-to-housing/issues)
