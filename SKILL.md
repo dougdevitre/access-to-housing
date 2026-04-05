@@ -781,6 +781,33 @@ Opportunity Zones) | Demolition Permits | Public Land Disposition | Moratoriums
 **Data sources**: Municipal council minutes, planning commission agendas, zoning board records,
 public notice filings, Municode, National Zoning Atlas, Regrid
 
+**Output format**:
+```
+## Civic Transparency Tracker — [Jurisdiction]
+
+**Signal Summary**: [One-line assessment of local government housing decision patterns]
+
+**Recent Decision Inventory** (last 12 months):
+| Date | Body | Action | Location | Vote | Public Comments |
+|------|------|--------|----------|------|:---------------:|
+| [date] | [council/commission] | [action] | [area] | [Y-N] | [count] |
+
+**Pattern Analysis**:
+- Geographic clustering: [where decisions concentrate]
+- Decision direction: [pro-development / preservation / mixed]
+- Public participation: [high / low / declining trend]
+
+**Comprehensive Plan Alignment**: [consistent / diverging — with specifics]
+
+**Data Caveats**: [meeting minutes availability, FOIA response times, data gaps]
+
+**Next Steps**:
+- [ ] Subscribe to planning commission agendas
+- [ ] Attend next public hearing on [specific upcoming item]
+- [ ] Request FOIA for [specific decision documentation]
+- [ ] Review comprehensive plan for consistency with recent decisions
+```
+
 ### Community-Reported Conditions
 
 **Purpose**: Capture ground-level neighborhood conditions that official data misses — housing
@@ -807,6 +834,32 @@ who lives there.
 
 **Data sources**: Municipal 311 portals, code enforcement databases, HUD REAC scores, local
 health department records, open data portals, USDA Food Access Research Atlas
+
+**Output format**:
+```
+## Community-Reported Conditions — [Neighborhood/Jurisdiction]
+
+**Signal Summary**: [One-line assessment of ground-level conditions and government responsiveness]
+
+**Condition Dashboard**:
+| Category | Complaints/1K HH | Trend (3yr) | Avg Response | Resolution Rate |
+|----------|:----------------:|:-----------:|:------------:|:---------------:|
+| Housing Quality | [X] | [up/down/flat] | [X days] | [X%] |
+| Infrastructure | [X] | [up/down/flat] | [X days] | [X%] |
+| Environmental | [X] | [up/down/flat] | [X days] | [X%] |
+| Service Gaps | [X] | [up/down/flat] | [X days] | [X%] |
+
+**Top Issues**: [Ranked by volume and severity]
+
+**Response Equity**: [Are all neighborhoods served equally? Compare response times across areas]
+
+**Data Caveats**: [311 data availability, reporting bias, underreported conditions]
+
+**Next Steps**:
+- [ ] Cross-reference with code enforcement violation database
+- [ ] Compare response times to peer cities
+- [ ] Identify areas with low complaint volume (may indicate underreporting, not absence of issues)
+```
 
 ### Displacement Early Warning
 
@@ -932,6 +985,31 @@ Emergency/Crisis (shelters, rapid rehousing, transitional)
 **Data sources**: HUD Housing Counseling directory, Legal Services Corporation, 211 United Way,
 CDFI Fund, National Fair Housing Alliance, NeighborWorks America, local community foundations
 
+**Output format**:
+```
+## Neighborhood Resource Directory — [Area/Jurisdiction]
+
+**Signal Summary**: [One-line assessment of resource availability and gaps]
+
+**Resource Map**:
+| Category | Organization | Contact | Services | Eligibility | Status |
+|----------|-------------|---------|----------|-------------|--------|
+| [type] | [name] | [phone/web] | [key services] | [who qualifies] | [active/waitlist] |
+
+**Coverage Assessment**:
+- Well-served: [categories with adequate resources]
+- Gaps identified: [categories with no or insufficient resources]
+- Wait times: [where demand exceeds capacity]
+
+**Data Caveats**: [directory currency, unlisted organizations, capacity fluctuations]
+
+**Next Steps**:
+- [ ] Call 211 for live resource availability
+- [ ] Contact HUD-approved housing counseling agency
+- [ ] Check municipal website for emergency rental assistance
+- [ ] Connect with local tenant advocacy organization
+```
+
 ### Community Engagement Guide
 
 **Purpose**: Provide a practical roadmap for residents and stakeholders to participate meaningfully
@@ -950,6 +1028,69 @@ in local housing decisions.
 
 **Data sources**: Municipal charter, state Open Meetings Acts, planning department calendars,
 neighborhood association directories, FOIA/public records procedures
+
+**Output format**:
+```
+## Community Engagement Guide — [Jurisdiction]
+
+**Signal Summary**: [One-line assessment of engagement opportunities and accessibility]
+
+**Upcoming Engagement Opportunities**:
+| Date | Body | Topic | How to Participate | Deadline |
+|------|------|-------|-------------------|----------|
+| [date] | [body] | [topic] | [in-person/virtual/written] | [comment deadline] |
+
+**Standing Engagement Channels**:
+- Planning Commission: [meeting schedule, public comment procedures]
+- City Council: [meeting schedule, how to sign up to speak]
+- Neighborhood Associations: [directory or contact]
+- Advisory Boards: [housing-related boards accepting applications]
+
+**Public Records Access**:
+- Request portal: [URL or office]
+- Response timeline: [state law requirement]
+- Key documents to request: [comprehensive plan, zoning amendments, TIF reports]
+
+**Data Caveats**: [meeting schedule changes, language access limitations, digital divide]
+
+**Next Steps**:
+- [ ] Subscribe to planning commission agenda notifications
+- [ ] Identify upcoming zoning or development hearings in your area
+- [ ] Submit a public records request for [specific document]
+- [ ] Contact neighborhood association or attend next meeting
+```
+
+---
+
+## Cross-Module Reference Guide
+
+Community Trust modules are designed to work alongside core modules. Use this guide to combine
+analyses for complete assessments.
+
+| If You're Running... | Also Run... | Why |
+|---------------------|------------|-----|
+| Module 5: Infrastructure Growth Heatmap | Displacement Early Warning | Investment that signals opportunity also signals displacement risk |
+| Module 4: Neighborhood Livability Score | Community-Reported Conditions | Top-down livability metrics + ground-level resident experience |
+| Module 2: Construction Permit Intelligence | Civic Transparency Tracker | Permits show what's coming; civic tracker shows what was approved and how |
+| Module 7: Global Opportunity Scanner | Displacement Early Warning | High-opportunity markets may have high displacement pressure |
+| Module 6: Climate Migration Model | Community Engagement Guide | Destination markets need civic infrastructure for incoming residents |
+| Displacement Early Warning | Neighborhood Resource Directory | If displacement risk is elevated, connect residents to available resources |
+| Government Accountability Scorecard | Community-Reported Conditions | Cross-reference government responsiveness with actual complaint data |
+
+**Combined Analysis Workflow**:
+```
+Market Analysis (Modules 1-7)
+        │
+        ▼
+Community Impact Check (Community Trust Pod)
+        │
+        ├── Investment perspective: "Is this a good opportunity?"
+        │
+        └── Community perspective: "What does this mean for residents?"
+        │
+        ▼
+Complete Assessment (both perspectives, same data, Fair Housing-safe)
+```
 
 ---
 

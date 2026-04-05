@@ -706,7 +706,8 @@ access-to-housing/
 ├── 📜 LICENSE                           MIT
 │
 ├── 📂 assets/
-│   └── data-sources.md                 65+ authoritative data sources with links
+│   ├── data-sources.md                 65+ authoritative data sources with links
+│   └── glossary.md                     Plain-language definitions for non-expert users
 │
 ├── 📂 references/                       7 analytical pods (80 total modules)
 │   ├── market-intelligence/pod.md      16 modules — pricing, supply, cycles, migration
