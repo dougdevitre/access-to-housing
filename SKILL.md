@@ -834,6 +834,38 @@ being displaced by demographic group — only whether displacement pressure exis
 **Data sources**: Census ACS (rent burden, tenure), Eviction Lab, USPS vacancy data, property
 records (investor share, cash purchases), NLIHC (affordable housing inventory), building permits
 
+**Output format**:
+```
+## Displacement Early Warning — [Neighborhood/Area]
+
+**Signal Summary**: [One-line displacement risk assessment]
+
+**Displacement Risk Score**: [X/100] — [Critical/Elevated/Moderate/Low]
+| Dimension | Score | Key Driver |
+|-----------|:-----:|-----------|
+| Affordability Pressure | [X/30] | [primary metric] |
+| Tenure Instability | [X/25] | [primary metric] |
+| Investment Pressure | [X/25] | [primary metric] |
+| Policy Protection | [X/20] | [presence/absence of protections] |
+
+**Trend**: [Accelerating / Stable / Decelerating] — [3-year trajectory]
+
+**Converging Signals**:
+- [Signal 1 with data and source]
+- [Signal 2 with data and source]
+- [Signal 3 with data and source]
+
+**Protective Factors**: [Existing policies, community land trusts, tenant protections]
+
+**Data Caveats**: [Eviction data lag, informal displacement not captured, ACS margins of error]
+
+**Next Steps**:
+- [ ] Cross-reference with Infrastructure Growth Heatmap (Module 5) for investment overlap
+- [ ] Identify expiring affordable housing contracts (LIHTC, Section 8)
+- [ ] Review local tenant protection ordinances
+- [ ] Connect with community organizations tracking displacement
+```
+
 ### Government Accountability Scorecard
 
 **Purpose**: Measure how effectively local government responds to housing-related issues — code
@@ -855,6 +887,35 @@ accessibility.
 
 **Data sources**: Municipal code enforcement databases, permit processing records, 311 data,
 housing authority wait lists, government transparency indices (US PIRG), municipal budgets
+
+**Output format**:
+```
+## Government Accountability Scorecard — [Jurisdiction]
+
+**Signal Summary**: [One-line assessment of government housing responsiveness]
+
+**Overall Score**: [X/100] — [Responsive/Functional/Needs Improvement/Failing]
+| Dimension | Score | Trend (3yr) | Key Metric |
+|-----------|:-----:|:-----------:|-----------|
+| Code Enforcement | [X/25] | [up/down/flat] | [avg days to resolution] |
+| Permit Processing | [X/25] | [up/down/flat] | [avg days to approval] |
+| Complaint Resolution | [X/25] | [up/down/flat] | [30-day resolution rate] |
+| Public Accessibility | [X/25] | [up/down/flat] | [meeting access score] |
+
+**Peer Comparison**: [vs. comparable jurisdictions]
+
+**Equity Check**: [response consistency across neighborhoods]
+
+**Budget Signal**: [housing budget as % of total, trend, per-capita comparison]
+
+**Data Caveats**: [data availability, self-reported metrics, survey response rates]
+
+**Next Steps**:
+- [ ] Request code enforcement activity reports via FOIA/open records
+- [ ] Compare permit processing times to state benchmarks
+- [ ] Attend public meeting to assess accessibility firsthand
+- [ ] Review municipal budget for housing-related allocations
+```
 
 ### Neighborhood Resource Directory
 

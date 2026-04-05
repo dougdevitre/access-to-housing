@@ -1,0 +1,60 @@
+name: Module Request
+description: Request a new analytical module or expansion of an existing one
+title: "[Module Request]: "
+labels: ["enhancement", "module"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new module or module expansion for Access to Housing!
+  - type: dropdown
+    id: pod
+    attributes:
+      label: Which pod does this belong to?
+      options:
+        - Market Intelligence
+        - Investment & Deal
+        - Risk & Climate
+        - Property Intelligence
+        - Brokerage Ops
+        - Brokerage Strategy
+        - Community Trust & Transparency
+        - New Pod (describe below)
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Module Purpose
+      description: What question does this module answer? Who is the primary user?
+      placeholder: "This module would help [user type] answer [specific question] by analyzing [data type]..."
+    validations:
+      required: true
+  - type: textarea
+    id: data-sources
+    attributes:
+      label: Suggested Data Sources
+      description: What data sources would this module use? Include URLs if possible.
+      placeholder: |
+        - Source name (URL) — what data it provides
+        - Source name (URL) — what data it provides
+    validations:
+      required: false
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected Output
+      description: What should the analysis output look like?
+      placeholder: "The module should produce a score/ranking/assessment that includes..."
+    validations:
+      required: false
+  - type: checkboxes
+    id: fair-housing
+    attributes:
+      label: Fair Housing Compliance
+      options:
+        - label: This module does not rely on protected class characteristics or proxies (race, color, national origin, religion, sex, familial status, disability)
+          required: true
+        - label: This module uses objective infrastructure, supply/demand, or environmental metrics
+          required: true

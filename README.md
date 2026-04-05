@@ -718,8 +718,10 @@ access-to-housing/
 │   └── community-trust/pod.md           6 modules — civic transparency, displacement, accountability
 │
 └── 📂 .github/ISSUE_TEMPLATE/
-    ├── module-request.md                Request a new analytical module
-    └── data-source.md                   Suggest a data source
+    ├── module-request.yml               Request a new analytical module
+    ├── data-source.yml                  Suggest a data source
+    ├── fair-housing-concern.yml         Flag a Fair Housing compliance issue
+    └── community-resource.yml           Submit a local housing resource
 ```
 
 ---

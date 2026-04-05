@@ -1,0 +1,43 @@
+name: Fair Housing Concern
+description: Flag a potential Fair Housing compliance issue in any module or output
+title: "[Fair Housing]: "
+labels: ["fair-housing", "priority"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us maintain Fair Housing compliance. This is critical to the platform's integrity. All reports are reviewed promptly.
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is the concern?
+      description: Which module, file, or output template has the potential issue?
+      placeholder: "e.g., Module 4 (Neighborhood Livability Score), line in SKILL.md, specific output language..."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the concern
+      description: What protected class characteristic or proxy could this implicate?
+      placeholder: "This metric/language/framework could be interpreted as scoring on [protected class] because..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: How would you recommend addressing this?
+      placeholder: "Replace with objective infrastructure metric such as..."
+    validations:
+      required: false
+  - type: checkboxes
+    id: severity
+    attributes:
+      label: Severity
+      description: How serious is this concern?
+      options:
+        - label: "Direct use of protected class characteristic (critical)"
+        - label: "Proxy metric that could correlate with protected class (high)"
+        - label: "Language or framing that could be misinterpreted (medium)"
+        - label: "Suggestion for improvement, no current violation (low)"

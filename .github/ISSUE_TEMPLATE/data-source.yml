@@ -1,0 +1,67 @@
+name: Data Source Suggestion
+description: Suggest a new data source for the platform
+title: "[Data Source]: "
+labels: ["data-source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us expand our 65+ data source library! Suggest a reliable, publicly accessible source.
+  - type: input
+    id: source-name
+    attributes:
+      label: Source Name
+      placeholder: "e.g., First Street Foundation"
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Data Category
+      options:
+        - Supply, Permits & Construction
+        - Pricing, Transactions & Valuation
+        - Migration & Demographics
+        - Climate & Environmental Risk
+        - Infrastructure & Capital
+        - Livability & Amenities
+        - Civic Transparency & Community Trust
+        - Global & Institutional Markets
+        - MLS & Brokerage Data
+        - Short-Term Rental
+        - Zoning & Land Use
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: data-provided
+    attributes:
+      label: What data does it provide?
+      placeholder: "Describe the specific data points, geographic coverage, and update frequency..."
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: modules-supported
+    attributes:
+      label: Which modules would this support?
+      placeholder: "e.g., Displacement Early Warning, Government Accountability Scorecard..."
+    validations:
+      required: false

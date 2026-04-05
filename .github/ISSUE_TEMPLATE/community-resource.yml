@@ -1,0 +1,65 @@
+name: Community Resource Submission
+description: Add a local housing resource, organization, or civic engagement opportunity
+title: "[Community Resource]: "
+labels: ["community-trust", "resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help expand the Neighborhood Resource Directory and Community Engagement Guide by submitting local resources that serve your community.
+  - type: input
+    id: location
+    attributes:
+      label: Geographic Area
+      description: City, county, or region this resource serves
+      placeholder: "e.g., St. Louis, MO metro area"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Resource Category
+      options:
+        - Housing Counseling (HUD-approved)
+        - Legal Aid (eviction defense, Fair Housing)
+        - Financial Assistance (down payment, emergency rental, weatherization)
+        - Tenant Advocacy (unions, rights orgs, mediation)
+        - Community Development (CDFIs, land trusts, co-ops)
+        - Emergency/Crisis (shelters, rapid rehousing)
+        - Civic Engagement (public meetings, advisory boards, FOIA help)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: org-name
+    attributes:
+      label: Organization Name
+      placeholder: "e.g., Metropolitan St. Louis Equal Housing and Opportunity Council"
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: Phone, website, or email
+      placeholder: "https://... or (555) 555-5555"
+    validations:
+      required: true
+  - type: textarea
+    id: services
+    attributes:
+      label: Services Provided
+      placeholder: "Describe what services they offer, eligibility requirements, and any wait times..."
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current Status
+      options:
+        - Active and accepting clients
+        - Active but has waitlist
+        - Seasonal/limited availability
+        - Unknown
+    validations:
+      required: true
