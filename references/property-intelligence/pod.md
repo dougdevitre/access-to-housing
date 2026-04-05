@@ -1,6 +1,38 @@
 # Pod: Property Intelligence
 **10 modules** — valuation, pricing, neighborhood scoring, infrastructure, rental, listing performance
 
+```mermaid
+flowchart LR
+    subgraph SCORE ["🎯 Score"]
+        A1["Livability\nScore"]
+        A2["Infrastructure\nHeatmap"]
+    end
+
+    subgraph VALUE ["💲 Value"]
+        B1["AVM"]
+        B2["Property\nValuation AI"]
+        B3["Rental\nIntelligence"]
+        B4["STR Analysis"]
+    end
+
+    subgraph SELL ["📈 Price & Sell"]
+        C1["Pricing AI"]
+        C2["Pricing\nStrategy"]
+        C3["Listing\nPerformance"]
+    end
+
+    subgraph OPERATE ["🔧 Operate"]
+        D1["Property\nManagement"]
+    end
+
+    SCORE --> VALUE --> SELL --> OPERATE
+
+    style SCORE fill:#dbeafe,stroke:#3b82f6
+    style VALUE fill:#fef3c7,stroke:#f59e0b
+    style SELL fill:#d1fae5,stroke:#10b981
+    style OPERATE fill:#ede9fe,stroke:#8b5cf6
+```
+
 ---
 
 ## Module Index

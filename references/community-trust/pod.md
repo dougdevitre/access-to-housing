@@ -1,6 +1,30 @@
 # Pod: Community Trust & Transparency
 **6 modules** — civic transparency, community-reported conditions, displacement early warning, government accountability, neighborhood resources, community engagement
 
+```mermaid
+flowchart LR
+    subgraph OBSERVE ["👁️ Observe"]
+        A1["Civic\nTransparency\nTracker"]
+        A2["Community-Reported\nConditions"]
+    end
+
+    subgraph ASSESS ["📊 Assess"]
+        B1["Displacement\nEarly Warning"]
+        B2["Government\nAccountability\nScorecard"]
+    end
+
+    subgraph ACT ["🤝 Act"]
+        C1["Neighborhood\nResource\nDirectory"]
+        C2["Community\nEngagement\nGuide"]
+    end
+
+    OBSERVE --> ASSESS --> ACT
+
+    style OBSERVE fill:#dbeafe,stroke:#3b82f6
+    style ASSESS fill:#fef3c7,stroke:#f59e0b
+    style ACT fill:#d1fae5,stroke:#10b981
+```
+
 ---
 
 ## Module Index

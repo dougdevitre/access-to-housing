@@ -1,6 +1,56 @@
 # Pod: Brokerage Ops
 **18 modules** — CRM, leads, pipeline, buyer/seller workflows, transactions, marketing
 
+```mermaid
+flowchart LR
+    subgraph CRM ["📇 CRM"]
+        A1["CRM Assistant"]
+        A2["CRM Health"]
+    end
+
+    subgraph LEADS ["🎯 Leads"]
+        B1["Lead Gen"]
+        B2["Pipeline\nPrioritization"]
+        B3["Conversion"]
+    end
+
+    subgraph BUYERS ["🏠 Buyers"]
+        C1["Buyer Behavior"]
+        C2["Search Optimizer"]
+        C3["Offer Probability"]
+    end
+
+    subgraph SELLERS ["📋 Sellers"]
+        D1["Seller Readiness"]
+        D2["Feedback AI"]
+        D3["Showing Analysis"]
+    end
+
+    subgraph CLOSE ["✅ Close"]
+        E1["Negotiation"]
+        E2["Transaction\nTimeline"]
+        E3["Transactions"]
+    end
+
+    subgraph GROW ["📈 Grow"]
+        F1["Marketing"]
+        F2["Marketing\nCalendar"]
+        F3["Client\nExperience"]
+        F4["Task Optimizer"]
+    end
+
+    CRM --> LEADS --> BUYERS --> CLOSE
+    CRM --> LEADS --> SELLERS --> CLOSE
+    CLOSE --> GROW
+
+    style CRM fill:#dbeafe,stroke:#3b82f6
+    style LEADS fill:#fef3c7,stroke:#f59e0b
+    style BUYERS fill:#d1fae5,stroke:#10b981
+    style SELLERS fill:#fce7f3,stroke:#ec4899
+    style CLOSE fill:#ede9fe,stroke:#8b5cf6
+    style GROW fill:#fefce8,stroke:#ca8a04
+```
+
 ---
 
 ## Module Index

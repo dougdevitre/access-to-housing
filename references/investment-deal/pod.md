@@ -1,6 +1,42 @@
 # Pod: Investment & Deal
 **16 modules** — opportunity scanning, underwriting, portfolio, capital flows, development, MLS
 
+```mermaid
+flowchart LR
+    subgraph FIND ["🔍 Find"]
+        A1["Opportunity\nScanner"]
+        A2["Acquisition\nDeal Finder"]
+        A3["Land\nAcquisition"]
+    end
+
+    subgraph ANALYZE ["📊 Analyze"]
+        B1["Deal\nUnderwriting"]
+        B2["Automated\nUnderwriting"]
+        B3["Development\nFeasibility"]
+        B4["Commercial\nAnalysis"]
+    end
+
+    subgraph FINANCE ["💰 Finance"]
+        C1["Private Equity\nModel"]
+        C2["Syndication"]
+        C3["Tokenization"]
+        C4["Global Capital\nFlows"]
+    end
+
+    subgraph MANAGE ["📋 Manage"]
+        D1["Portfolio\nReview"]
+        D2["Portfolio\nRebalancing"]
+        D3["MLS Data Lake"]
+    end
+
+    FIND --> ANALYZE --> FINANCE --> MANAGE
+
+    style FIND fill:#dbeafe,stroke:#3b82f6
+    style ANALYZE fill:#fef3c7,stroke:#f59e0b
+    style FINANCE fill:#d1fae5,stroke:#10b981
+    style MANAGE fill:#ede9fe,stroke:#8b5cf6
+```
+
 ---
 
 ## Module Index

@@ -1,6 +1,37 @@
 # Pod: Risk & Climate
 **6 modules** — climate risk, construction risk, zoning, supply chain, tenant screening
 
+```mermaid
+flowchart TB
+    subgraph CLIMATE ["🌊 Climate Risk"]
+        A1["Climate Migration\nModel"]
+        A2["Climate Risk\nModel"]
+    end
+
+    subgraph CONSTRUCTION ["🏗️ Construction Risk"]
+        B1["Construction\nRisk"]
+        B2["Supply Chain\nAnalysis"]
+    end
+
+    subgraph COMPLIANCE ["⚖️ Compliance"]
+        C1["Zoning\nIntelligence"]
+        C2["Tenant Risk\nScoring"]
+    end
+
+    CLIMATE --> DECISION{"Investment\nDecision"}
+    CONSTRUCTION --> DECISION
+    COMPLIANCE --> DECISION
+
+    DECISION -->|"✅ Acceptable"| GO["Proceed"]
+    DECISION -->|"🚫 Too High"| PASS["Pass or Mitigate"]
+
+    style CLIMATE fill:#dbeafe,stroke:#3b82f6
+    style CONSTRUCTION fill:#fef3c7,stroke:#f59e0b
+    style COMPLIANCE fill:#ede9fe,stroke:#8b5cf6
+    style GO fill:#d1fae5,stroke:#10b981
+    style PASS fill:#fee2e2,stroke:#ef4444
+```
+
 ---
 
 ## Module Index

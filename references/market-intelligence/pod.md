@@ -1,6 +1,41 @@
 # Pod: Market Intelligence
 **16 modules** — supply/demand fundamentals, macro trends, price indices, demographics, cycles
 
+```mermaid
+flowchart LR
+    subgraph DETECT ["🛰️ Detection"]
+        A1["Satellite Detection"]
+        A2["Permit Intelligence"]
+    end
+
+    subgraph SUPPLY ["📦 Supply & Demand"]
+        B1["Supply Forecast"]
+        B2["Shortage Analysis"]
+    end
+
+    subgraph PRICING ["💲 Pricing & Cycles"]
+        C1["Global HPI"]
+        C2["Affordability Index"]
+        C3["Housing Cycles"]
+        C4["Market Prediction"]
+    end
+
+    subgraph DEMO ["👥 Demographics & Migration"]
+        D1["Migration Model"]
+        D2["Demographic Forecasting"]
+        D3["Urban Growth"]
+    end
+
+    DETECT --> SUPPLY
+    SUPPLY --> PRICING
+    DEMO --> PRICING
+
+    style DETECT fill:#dbeafe,stroke:#3b82f6
+    style SUPPLY fill:#fef3c7,stroke:#f59e0b
+    style PRICING fill:#d1fae5,stroke:#10b981
+    style DEMO fill:#fce7f3,stroke:#ec4899
+```
+
 ---
 
 ## Module Index

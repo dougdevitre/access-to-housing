@@ -39,6 +39,7 @@
 - [Data Sources](#-data-sources)
 - [Fair Housing Compliance](#-fair-housing-compliance)
 - [Repository Structure](#-repository-structure)
+- [FAQ](#-faq)
 - [CoTrackPro Ecosystem](#-cotrackpro-access-projects)
 - [Contributing](#-contributing)
 - [License & Contact](#-license--contact)
@@ -48,6 +49,31 @@
 ## The Problem
 
 Housing decisions are some of the highest-stakes financial choices people make, yet the data that drives them is **fragmented across dozens of systems** — MLS, tax records, climate models, permit databases, and demographic forecasts.
+
+```mermaid
+flowchart LR
+    subgraph FRAGMENTED ["❌ TODAY: Fragmented Data"]
+        direction TB
+        A1["MLS Listings"]
+        A2["Tax Records"]
+        A3["Climate Models"]
+        A4["Permit Databases"]
+        A5["Demographic Forecasts"]
+        A6["Zoning Codes"]
+    end
+
+    subgraph UNIFIED ["✅ ACCESS TO HOUSING: Unified Intelligence"]
+        direction TB
+        B1["📊 Structured Analysis"]
+        B2["⚖️ Fair Housing Safe"]
+        B3["📍 Cited Sources"]
+    end
+
+    FRAGMENTED -->|"7 Core Modules\n7 Reference Pods"| UNIFIED
+
+    style FRAGMENTED fill:#fef2f2,stroke:#ef4444
+    style UNIFIED fill:#ecfdf5,stroke:#10b981
+```
 
 Real estate professionals, first-time homebuyers, housing advocates, and community planners need intelligence tools that are:
 
@@ -76,6 +102,48 @@ flowchart LR
 ```
 
 **Every output includes**: signal summary, key findings with evidence, methodology transparency, data caveats, and actionable next steps.
+
+### Who It's For
+
+```mermaid
+flowchart TB
+    subgraph USERS ["👥 PLATFORM USERS"]
+        direction LR
+        U1["🏠 First-Time\nHomebuyers"]
+        U2["💼 Real Estate\nProfessionals"]
+        U3["📈 Investors &\nFund Managers"]
+        U4["🏘️ Housing\nAdvocates"]
+        U5["🏗️ Community\nPlanners"]
+    end
+
+    subgraph QUESTIONS ["❓ THEIR QUESTIONS"]
+        direction LR
+        Q1["Is this neighborhood\nsafe and livable?"]
+        Q2["Where is the\nmarket heading?"]
+        Q3["What's the best\ninvestment opportunity?"]
+        Q4["Are residents being\ndisplaced?"]
+        Q5["Where should we\ninvest infrastructure?"]
+    end
+
+    subgraph MODULES ["🧩 MODULES THAT ANSWER"]
+        direction LR
+        M1["Module 4\nLivability Score"]
+        M2["Modules 2-3\nSupply Forecast"]
+        M3["Module 7\nOpportunity Scanner"]
+        M4["Community Trust\nDisplacement Warning"]
+        M5["Module 5\nInfrastructure Heatmap"]
+    end
+
+    U1 --- Q1 --- M1
+    U2 --- Q2 --- M2
+    U3 --- Q3 --- M3
+    U4 --- Q4 --- M4
+    U5 --- Q5 --- M5
+
+    style USERS fill:#eff6ff,stroke:#3b82f6
+    style QUESTIONS fill:#fefce8,stroke:#ca8a04
+    style MODULES fill:#f0fdf4,stroke:#16a34a
+```
 
 ---
 
@@ -149,6 +217,23 @@ flowchart TB
 
 > Modules feed upward — detection informs forecasts, scoring informs opportunity ranking, and everything converges in the **Platform Brief**.
 
+### Module Scope: Local to Global
+
+```mermaid
+flowchart LR
+    L["🏘️ LOCAL\nNeighborhood\nLivability Score\nCommunity Trust"]
+    R["🏙️ REGIONAL\nInfrastructure\nHeatmap\nPermit Intelligence"]
+    N["🇺🇸 NATIONAL\nSupply Forecast\nClimate Migration\nMarket Analytics"]
+    G["🌍 GLOBAL\nOpportunity Scanner\nGlobal HPI\nCapital Flows"]
+
+    L --> R --> N --> G
+
+    style L fill:#dbeafe,stroke:#3b82f6
+    style R fill:#e0e7ff,stroke:#6366f1
+    style N fill:#ede9fe,stroke:#8b5cf6
+    style G fill:#f5f3ff,stroke:#7c3aed
+```
+
 ---
 
 ## 📚 Reference Pods — 80 Modules
@@ -164,6 +249,17 @@ Seven specialized pods extend the core modules with deep analytical frameworks:
 | **Brokerage Ops** | 18 | CRM health, lead generation, pipeline management, buyer/seller workflows, transaction management, marketing, client experience |
 | **Brokerage Strategy** | 10 | Brokerage growth modeling, recruiting, financial modeling, strategic planning, KPI reporting, agent development pathways |
 | **Community Trust** | 6 | Civic transparency tracking, community-reported conditions, displacement early warning, government accountability, neighborhood resources, engagement guide |
+
+```mermaid
+pie title Module Distribution Across Pods
+    "Market Intelligence" : 16
+    "Investment & Deal" : 16
+    "Brokerage Ops" : 18
+    "Property Intelligence" : 10
+    "Brokerage Strategy" : 10
+    "Risk & Climate" : 6
+    "Community Trust" : 6
+```
 
 ---
 
@@ -194,6 +290,46 @@ Seven specialized pods extend the core modules with deep analytical frameworks:
 ### Option 2: Reference Library
 
 Browse the [`references/`](references/) directory directly — each pod contains scoring rubrics, data source recommendations, output templates, and methodology notes you can use independently.
+
+---
+
+## 🛠️ For Developers
+
+Building on top of Access to Housing? These resources are designed for integration and automation.
+
+```mermaid
+flowchart LR
+    subgraph DEFINE ["📋 Define"]
+        A1["Output Schemas\n(JSON Schema 2020-12)"]
+    end
+
+    subgraph CONNECT ["🔌 Connect"]
+        B1["API Reference\n(65+ sources by auth tier)"]
+    end
+
+    subgraph BUILD ["🏗️ Build"]
+        C1["Integration Patterns\n(Free / Community / Full)"]
+    end
+
+    subgraph VALIDATE ["✅ Validate"]
+        D1["Fair Housing\nCompliance Check"]
+    end
+
+    DEFINE --> CONNECT --> BUILD --> VALIDATE
+
+    style DEFINE fill:#dbeafe,stroke:#3b82f6
+    style CONNECT fill:#fef3c7,stroke:#f59e0b
+    style BUILD fill:#d1fae5,stroke:#10b981
+    style VALIDATE fill:#ede9fe,stroke:#8b5cf6
+```
+
+| Resource | Path | What It Contains |
+|----------|------|------------------|
+| **Output Schemas** | [`assets/output-schemas.md`](assets/output-schemas.md) | JSON Schema definitions for Livability, Opportunity Scanner, Displacement, Accountability, Conditions, Platform Brief |
+| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 65+ sources organized by auth type — endpoints, rate limits, 3 integration patterns |
+| **Glossary** | [`assets/glossary.md`](assets/glossary.md) | 40+ term definitions for building user-facing interfaces |
+| **Example Prompts** | [`assets/example-prompts.md`](assets/example-prompts.md) | Test cases for every module — input prompts with expected output structure |
+| **CLAUDE.md** | [`CLAUDE.md`](CLAUDE.md) | Repo context for Claude Code — architecture decisions, file sync points, conventions |
 
 ---
 
@@ -401,11 +537,97 @@ flowchart LR
 
 Each scenario includes explicit assumptions, confidence levels, monitoring triggers, and wild card factors.
 
+### Displacement Early Warning (Community Trust Pod)
+
+```mermaid
+flowchart TB
+    SCORE["⚠️ DISPLACEMENT RISK SCORE: 0–100"]
+
+    SCORE --> A["💰 Affordability\nPressure\n(0–30 pts)"]
+    SCORE --> B["🏠 Tenure\nInstability\n(0–25 pts)"]
+    SCORE --> C["📈 Investment\nPressure\n(0–25 pts)"]
+    SCORE --> D["🛡️ Policy\nProtection\n(0–20 pts)"]
+
+    A --> A1["Rent burden trend\nRent-to-income gap\nAffordable unit pipeline"]
+    B --> B1["Eviction rate\nRenter share\nLength of residence"]
+    C --> C1["Investor purchases\nCash share\nRenovation surge"]
+    D --> D1["Rent stabilization\nJust-cause eviction\nCommunity land trusts"]
+
+    style SCORE fill:#fbbf24,stroke:#d97706,color:#000
+    style A fill:#fee2e2,stroke:#ef4444
+    style B fill:#fef3c7,stroke:#f59e0b
+    style C fill:#fce7f3,stroke:#ec4899
+    style D fill:#d1fae5,stroke:#10b981
+```
+
+**Risk Tiers**: Critical (75–100) · Elevated (50–74) · Moderate (25–49) · Low (<25)
+
+### Government Accountability Scorecard (Community Trust Pod)
+
+```mermaid
+flowchart LR
+    CARD["🎯 ACCOUNTABILITY\nSCORE: 0–100"]
+
+    CARD --> CE["🔍 Code\nEnforcement\n0–25 pts"]
+    CARD --> PP["📋 Permit\nProcessing\n0–25 pts"]
+    CARD --> CR["📞 Complaint\nResolution\n0–25 pts"]
+    CARD --> PA["🏛️ Public\nAccessibility\n0–25 pts"]
+
+    style CARD fill:#3b82f6,stroke:#1e40af,color:#fff
+    style CE fill:#dbeafe,stroke:#3b82f6
+    style PP fill:#e0e7ff,stroke:#6366f1
+    style CR fill:#ede9fe,stroke:#8b5cf6
+    style PA fill:#f5f3ff,stroke:#7c3aed
+```
+
+**Score Tiers**: Responsive (85–100) · Functional (70–84) · Needs Improvement (55–69) · Failing (<55)
+
 ---
 
 ## 📡 Data Sources
 
 All analyses cite **primary, verifiable sources** with vintage dates. No invented data — ever.
+
+```mermaid
+flowchart LR
+    subgraph FEDERAL ["🏛️ Federal"]
+        direction TB
+        F1["Census Bureau"]
+        F2["FHFA / HUD"]
+        F3["FEMA / NOAA"]
+        F4["IRS SOI"]
+    end
+
+    subgraph COMMERCIAL ["💼 Commercial"]
+        direction TB
+        C1["Zillow / Redfin"]
+        C2["CoStar / JLL"]
+        C3["First Street"]
+        C4["Walk Score"]
+    end
+
+    subgraph CIVIC ["🏘️ Civic & Local"]
+        direction TB
+        L1["Municipal 311"]
+        L2["Eviction Lab"]
+        L3["HUD Counseling"]
+        L4["Planning Commissions"]
+    end
+
+    subgraph PLATFORM ["📊 Access to Housing"]
+        direction TB
+        OUT["Cited, Structured\nFair Housing-Safe\nAnalysis"]
+    end
+
+    FEDERAL --> PLATFORM
+    COMMERCIAL --> PLATFORM
+    CIVIC --> PLATFORM
+
+    style FEDERAL fill:#eff6ff,stroke:#3b82f6
+    style COMMERCIAL fill:#fefce8,stroke:#ca8a04
+    style CIVIC fill:#f0fdf4,stroke:#16a34a
+    style PLATFORM fill:#faf5ff,stroke:#8b5cf6
+```
 
 <table>
 <tr>
@@ -524,8 +746,16 @@ access-to-housing/
 ├── 🤝 CONTRIBUTING.md                  How to contribute
 ├── 📜 LICENSE                           MIT
 │
+├── 🧠 CLAUDE.md                        Developer context for Claude Code contributors
+│
 ├── 📂 assets/
-│   └── data-sources.md                 65+ authoritative data sources with links
+│   ├── data-sources.md                 65+ authoritative data sources with links
+│   ├── api-reference.md                Developer API guide — endpoints, auth, rate limits
+│   ├── output-schemas.md               JSON schemas for all scoring module outputs
+│   ├── example-prompts.md              Test prompts for every module with validation checklist
+│   ├── sample-output.md                Complete Platform Brief example (Nashville, TN)
+│   ├── international-guide.md          Adaptation guide for UK, Canada, Australia markets
+│   └── glossary.md                     Plain-language definitions for non-expert users
 │
 ├── 📂 references/                       7 analytical pods (80 total modules)
 │   ├── market-intelligence/pod.md      16 modules — pricing, supply, cycles, migration
@@ -537,9 +767,63 @@ access-to-housing/
 │   └── community-trust/pod.md           6 modules — civic transparency, displacement, accountability
 │
 └── 📂 .github/ISSUE_TEMPLATE/
-    ├── module-request.md                Request a new analytical module
-    └── data-source.md                   Suggest a data source
+    ├── module-request.yml               Request a new analytical module
+    ├── data-source.yml                  Suggest a data source
+    ├── fair-housing-concern.yml         Flag a Fair Housing compliance issue
+    └── community-resource.yml           Submit a local housing resource
 ```
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><strong>Is this an app I can download?</strong></summary>
+
+No — Access to Housing is a **Claude Custom Skill** (a `.skill` file you upload to Claude.ai). It turns Claude into a specialized PropTech intelligence analyst. There's no separate app, database, or server to run. You ask questions in plain English and get structured, cited analysis back.
+</details>
+
+<details>
+<summary><strong>Where does the data come from?</strong></summary>
+
+All analysis references **65+ authoritative public and commercial data sources** — Census Bureau, FHFA, Zillow, Redfin, First Street Foundation, FEMA, Walk Score, Eviction Lab, and more. Every data point cites its source name and vintage date so you can verify it. The platform never invents data. See [`assets/data-sources.md`](assets/data-sources.md) for the full list.
+</details>
+
+<details>
+<summary><strong>Is this Fair Housing compliant?</strong></summary>
+
+Yes — Fair Housing compliance is **architectural, not an afterthought**. Every module, scoring rubric, and output template is designed to avoid protected class characteristics and proxies. Crime uses density-normalized rates, schools are scored on proximity only, neighborhoods are compared on objective infrastructure metrics. See [`FAIR-HOUSING.md`](FAIR-HOUSING.md) for the full framework.
+</details>
+
+<details>
+<summary><strong>Can I use this for my local market?</strong></summary>
+
+Yes. The platform works for any US market. Ask about a specific city, county, neighborhood, or metro area. For international markets, the frameworks are adaptable — see [`assets/international-guide.md`](assets/international-guide.md) for country-specific guidance.
+</details>
+
+<details>
+<summary><strong>I'm a developer — how do I integrate this?</strong></summary>
+
+Start with the [For Developers](#-for-developers) section. Key resources: JSON output schemas ([`assets/output-schemas.md`](assets/output-schemas.md)), data source API reference ([`assets/api-reference.md`](assets/api-reference.md)), example prompts with expected outputs ([`assets/example-prompts.md`](assets/example-prompts.md)), and repo context ([`CLAUDE.md`](CLAUDE.md)).
+</details>
+
+<details>
+<summary><strong>I'm a housing advocate — how does this help my community?</strong></summary>
+
+The **Community Trust & Transparency Pod** was built specifically for communities. Use the Civic Transparency Tracker to see what zoning decisions your city is making, the Displacement Early Warning to identify neighborhoods at risk, the Government Accountability Scorecard to measure responsiveness, and the Neighborhood Resource Directory to find help. See the [Community Trust Assessment](#community-trust-assessment) workflow.
+</details>
+
+<details>
+<summary><strong>What does a real output look like?</strong></summary>
+
+See [`assets/sample-output.md`](assets/sample-output.md) for a complete multi-module Platform Brief showing Nashville, TN — including Permit Intelligence, Livability Score, Displacement Early Warning, and Government Accountability Scorecard with cited data points and next steps.
+</details>
+
+<details>
+<summary><strong>How do I contribute?</strong></summary>
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). High-impact areas: local data sources, community resource directories, Fair Housing review, module expansions, and developer tools. We especially welcome Community Trust contributions from people with local knowledge.
+</details>
 
 ---
 

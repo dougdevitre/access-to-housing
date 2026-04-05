@@ -1,6 +1,39 @@
 # Pod: Brokerage Strategy
 **10 modules** — brokerage growth, recruiting, financial modeling, executive reporting, agent development
 
+```mermaid
+flowchart TB
+    subgraph PLAN ["📋 Plan"]
+        A1["Strategic\nPlanning AI"]
+        A2["Growth\nSimulator"]
+    end
+
+    subgraph RECRUIT ["👥 Recruit"]
+        B1["Recruiting"]
+        B2["Recruit\nIntelligence"]
+        B3["Recruit\nScoring"]
+    end
+
+    subgraph DEVELOP ["🎓 Develop"]
+        C1["Training"]
+        C2["Agent\nWellbeing"]
+    end
+
+    subgraph MEASURE ["📊 Measure"]
+        D1["CFO Dashboard"]
+        D2["Executive\nReporting"]
+        D3["Analytics"]
+    end
+
+    PLAN --> RECRUIT --> DEVELOP --> MEASURE
+    MEASURE -->|"feedback loop"| PLAN
+
+    style PLAN fill:#dbeafe,stroke:#3b82f6
+    style RECRUIT fill:#fef3c7,stroke:#f59e0b
+    style DEVELOP fill:#d1fae5,stroke:#10b981
+    style MEASURE fill:#ede9fe,stroke:#8b5cf6
+```
+
 ---
 
 ## Module Index
