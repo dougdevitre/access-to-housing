@@ -49,6 +49,31 @@
 
 Housing decisions are some of the highest-stakes financial choices people make, yet the data that drives them is **fragmented across dozens of systems** — MLS, tax records, climate models, permit databases, and demographic forecasts.
 
+```mermaid
+flowchart LR
+    subgraph FRAGMENTED ["❌ TODAY: Fragmented Data"]
+        direction TB
+        A1["MLS Listings"]
+        A2["Tax Records"]
+        A3["Climate Models"]
+        A4["Permit Databases"]
+        A5["Demographic Forecasts"]
+        A6["Zoning Codes"]
+    end
+
+    subgraph UNIFIED ["✅ ACCESS TO HOUSING: Unified Intelligence"]
+        direction TB
+        B1["📊 Structured Analysis"]
+        B2["⚖️ Fair Housing Safe"]
+        B3["📍 Cited Sources"]
+    end
+
+    FRAGMENTED -->|"7 Core Modules\n7 Reference Pods"| UNIFIED
+
+    style FRAGMENTED fill:#fef2f2,stroke:#ef4444
+    style UNIFIED fill:#ecfdf5,stroke:#10b981
+```
+
 Real estate professionals, first-time homebuyers, housing advocates, and community planners need intelligence tools that are:
 
 - **Comprehensive** — not siloed by data type
@@ -76,6 +101,48 @@ flowchart LR
 ```
 
 **Every output includes**: signal summary, key findings with evidence, methodology transparency, data caveats, and actionable next steps.
+
+### Who It's For
+
+```mermaid
+flowchart TB
+    subgraph USERS ["👥 PLATFORM USERS"]
+        direction LR
+        U1["🏠 First-Time\nHomebuyers"]
+        U2["💼 Real Estate\nProfessionals"]
+        U3["📈 Investors &\nFund Managers"]
+        U4["🏘️ Housing\nAdvocates"]
+        U5["🏗️ Community\nPlanners"]
+    end
+
+    subgraph QUESTIONS ["❓ THEIR QUESTIONS"]
+        direction LR
+        Q1["Is this neighborhood\nsafe and livable?"]
+        Q2["Where is the\nmarket heading?"]
+        Q3["What's the best\ninvestment opportunity?"]
+        Q4["Are residents being\ndisplaced?"]
+        Q5["Where should we\ninvest infrastructure?"]
+    end
+
+    subgraph MODULES ["🧩 MODULES THAT ANSWER"]
+        direction LR
+        M1["Module 4\nLivability Score"]
+        M2["Modules 2-3\nSupply Forecast"]
+        M3["Module 7\nOpportunity Scanner"]
+        M4["Community Trust\nDisplacement Warning"]
+        M5["Module 5\nInfrastructure Heatmap"]
+    end
+
+    U1 --- Q1 --- M1
+    U2 --- Q2 --- M2
+    U3 --- Q3 --- M3
+    U4 --- Q4 --- M4
+    U5 --- Q5 --- M5
+
+    style USERS fill:#eff6ff,stroke:#3b82f6
+    style QUESTIONS fill:#fefce8,stroke:#ca8a04
+    style MODULES fill:#f0fdf4,stroke:#16a34a
+```
 
 ---
 
@@ -149,6 +216,23 @@ flowchart TB
 
 > Modules feed upward — detection informs forecasts, scoring informs opportunity ranking, and everything converges in the **Platform Brief**.
 
+### Module Scope: Local to Global
+
+```mermaid
+flowchart LR
+    L["🏘️ LOCAL\nNeighborhood\nLivability Score\nCommunity Trust"]
+    R["🏙️ REGIONAL\nInfrastructure\nHeatmap\nPermit Intelligence"]
+    N["🇺🇸 NATIONAL\nSupply Forecast\nClimate Migration\nMarket Analytics"]
+    G["🌍 GLOBAL\nOpportunity Scanner\nGlobal HPI\nCapital Flows"]
+
+    L --> R --> N --> G
+
+    style L fill:#dbeafe,stroke:#3b82f6
+    style R fill:#e0e7ff,stroke:#6366f1
+    style N fill:#ede9fe,stroke:#8b5cf6
+    style G fill:#f5f3ff,stroke:#7c3aed
+```
+
 ---
 
 ## 📚 Reference Pods — 80 Modules
@@ -164,6 +248,17 @@ Seven specialized pods extend the core modules with deep analytical frameworks:
 | **Brokerage Ops** | 18 | CRM health, lead generation, pipeline management, buyer/seller workflows, transaction management, marketing, client experience |
 | **Brokerage Strategy** | 10 | Brokerage growth modeling, recruiting, financial modeling, strategic planning, KPI reporting, agent development pathways |
 | **Community Trust** | 6 | Civic transparency tracking, community-reported conditions, displacement early warning, government accountability, neighborhood resources, engagement guide |
+
+```mermaid
+pie title Module Distribution Across Pods
+    "Market Intelligence" : 16
+    "Investment & Deal" : 16
+    "Brokerage Ops" : 18
+    "Property Intelligence" : 10
+    "Brokerage Strategy" : 10
+    "Risk & Climate" : 6
+    "Community Trust" : 6
+```
 
 ---
 
@@ -401,11 +496,97 @@ flowchart LR
 
 Each scenario includes explicit assumptions, confidence levels, monitoring triggers, and wild card factors.
 
+### Displacement Early Warning (Community Trust Pod)
+
+```mermaid
+flowchart TB
+    SCORE["⚠️ DISPLACEMENT RISK SCORE: 0–100"]
+
+    SCORE --> A["💰 Affordability\nPressure\n(0–30 pts)"]
+    SCORE --> B["🏠 Tenure\nInstability\n(0–25 pts)"]
+    SCORE --> C["📈 Investment\nPressure\n(0–25 pts)"]
+    SCORE --> D["🛡️ Policy\nProtection\n(0–20 pts)"]
+
+    A --> A1["Rent burden trend\nRent-to-income gap\nAffordable unit pipeline"]
+    B --> B1["Eviction rate\nRenter share\nLength of residence"]
+    C --> C1["Investor purchases\nCash share\nRenovation surge"]
+    D --> D1["Rent stabilization\nJust-cause eviction\nCommunity land trusts"]
+
+    style SCORE fill:#fbbf24,stroke:#d97706,color:#000
+    style A fill:#fee2e2,stroke:#ef4444
+    style B fill:#fef3c7,stroke:#f59e0b
+    style C fill:#fce7f3,stroke:#ec4899
+    style D fill:#d1fae5,stroke:#10b981
+```
+
+**Risk Tiers**: Critical (75–100) · Elevated (50–74) · Moderate (25–49) · Low (<25)
+
+### Government Accountability Scorecard (Community Trust Pod)
+
+```mermaid
+flowchart LR
+    CARD["🎯 ACCOUNTABILITY\nSCORE: 0–100"]
+
+    CARD --> CE["🔍 Code\nEnforcement\n0–25 pts"]
+    CARD --> PP["📋 Permit\nProcessing\n0–25 pts"]
+    CARD --> CR["📞 Complaint\nResolution\n0–25 pts"]
+    CARD --> PA["🏛️ Public\nAccessibility\n0–25 pts"]
+
+    style CARD fill:#3b82f6,stroke:#1e40af,color:#fff
+    style CE fill:#dbeafe,stroke:#3b82f6
+    style PP fill:#e0e7ff,stroke:#6366f1
+    style CR fill:#ede9fe,stroke:#8b5cf6
+    style PA fill:#f5f3ff,stroke:#7c3aed
+```
+
+**Score Tiers**: Responsive (85–100) · Functional (70–84) · Needs Improvement (55–69) · Failing (<55)
+
 ---
 
 ## 📡 Data Sources
 
 All analyses cite **primary, verifiable sources** with vintage dates. No invented data — ever.
+
+```mermaid
+flowchart LR
+    subgraph FEDERAL ["🏛️ Federal"]
+        direction TB
+        F1["Census Bureau"]
+        F2["FHFA / HUD"]
+        F3["FEMA / NOAA"]
+        F4["IRS SOI"]
+    end
+
+    subgraph COMMERCIAL ["💼 Commercial"]
+        direction TB
+        C1["Zillow / Redfin"]
+        C2["CoStar / JLL"]
+        C3["First Street"]
+        C4["Walk Score"]
+    end
+
+    subgraph CIVIC ["🏘️ Civic & Local"]
+        direction TB
+        L1["Municipal 311"]
+        L2["Eviction Lab"]
+        L3["HUD Counseling"]
+        L4["Planning Commissions"]
+    end
+
+    subgraph PLATFORM ["📊 Access to Housing"]
+        direction TB
+        OUT["Cited, Structured\nFair Housing-Safe\nAnalysis"]
+    end
+
+    FEDERAL --> PLATFORM
+    COMMERCIAL --> PLATFORM
+    CIVIC --> PLATFORM
+
+    style FEDERAL fill:#eff6ff,stroke:#3b82f6
+    style COMMERCIAL fill:#fefce8,stroke:#ca8a04
+    style CIVIC fill:#f0fdf4,stroke:#16a34a
+    style PLATFORM fill:#faf5ff,stroke:#8b5cf6
+```
 
 <table>
 <tr>
