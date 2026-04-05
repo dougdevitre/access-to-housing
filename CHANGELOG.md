@@ -21,6 +21,23 @@ All notable changes to the Access to Housing platform are documented here.
 - **Fair Housing safeguards** for all Community Trust modules in `FAIR-HOUSING.md`
 - **Community Trust workflow diagram** in Key Workflows section
 - **Community Trust trigger prompts** in Quick Start and Module Selection Guide
+- **Developer resources**
+  - `assets/output-schemas.md` — JSON Schema 2020-12 definitions for 6 scoring modules + Platform Brief wrapper + shared types
+  - `assets/api-reference.md` — 65+ data sources by auth tier (free/key/freemium/paid/MLS/municipal), endpoints, rate limits, 3 integration patterns
+  - `assets/glossary.md` — 40+ plain-language definitions in 5 categories for non-expert users
+  - `assets/example-prompts.md` — test prompts for every module with expected output structure
+  - `CLAUDE.md` — repo context for Claude Code developers (architecture decisions, file relationships, sync points, conventions)
+- **GitHub issue templates** (4 YAML forms)
+  - `module-request.yml` — pod selector, Fair Housing checkboxes
+  - `data-source.yml` — category dropdown, cost, module mapping
+  - `fair-housing-concern.yml` — severity levels, suggested fix
+  - `community-resource.yml` — local org submissions with geographic area, services, status
+- **SKILL.md enhancements**
+  - Full Community Trust pod embedded (6 modules with trigger phrases, scoring frameworks, analysis steps, data sources, Fair Housing notes)
+  - Output format templates for all 6 Community Trust modules
+  - Cross-module reference guide (7 recommended pairings + combined analysis workflow)
+- **7 mermaid workflow diagrams** added to all reference pod files
+- **CONTRIBUTING.md overhaul** — community trust contributions, pod expansion table, Fair Housing checklist, developer section
 
 ### Changed
 - Module count: 74 → 80 (6 new Community Trust modules)

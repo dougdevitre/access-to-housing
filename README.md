@@ -292,6 +292,46 @@ Browse the [`references/`](references/) directory directly — each pod contains
 
 ---
 
+## 🛠️ For Developers
+
+Building on top of Access to Housing? These resources are designed for integration and automation.
+
+```mermaid
+flowchart LR
+    subgraph DEFINE ["📋 Define"]
+        A1["Output Schemas\n(JSON Schema 2020-12)"]
+    end
+
+    subgraph CONNECT ["🔌 Connect"]
+        B1["API Reference\n(65+ sources by auth tier)"]
+    end
+
+    subgraph BUILD ["🏗️ Build"]
+        C1["Integration Patterns\n(Free / Community / Full)"]
+    end
+
+    subgraph VALIDATE ["✅ Validate"]
+        D1["Fair Housing\nCompliance Check"]
+    end
+
+    DEFINE --> CONNECT --> BUILD --> VALIDATE
+
+    style DEFINE fill:#dbeafe,stroke:#3b82f6
+    style CONNECT fill:#fef3c7,stroke:#f59e0b
+    style BUILD fill:#d1fae5,stroke:#10b981
+    style VALIDATE fill:#ede9fe,stroke:#8b5cf6
+```
+
+| Resource | Path | What It Contains |
+|----------|------|------------------|
+| **Output Schemas** | [`assets/output-schemas.md`](assets/output-schemas.md) | JSON Schema definitions for Livability, Opportunity Scanner, Displacement, Accountability, Conditions, Platform Brief |
+| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 65+ sources organized by auth type — endpoints, rate limits, 3 integration patterns |
+| **Glossary** | [`assets/glossary.md`](assets/glossary.md) | 40+ term definitions for building user-facing interfaces |
+| **Example Prompts** | [`assets/example-prompts.md`](assets/example-prompts.md) | Test cases for every module — input prompts with expected output structure |
+| **CLAUDE.md** | [`CLAUDE.md`](CLAUDE.md) | Repo context for Claude Code — architecture decisions, file sync points, conventions |
+
+---
+
 ## 🏗️ Platform Architecture
 
 ```mermaid
@@ -711,6 +751,7 @@ access-to-housing/
 │   ├── data-sources.md                 65+ authoritative data sources with links
 │   ├── api-reference.md                Developer API guide — endpoints, auth, rate limits
 │   ├── output-schemas.md               JSON schemas for all scoring module outputs
+│   ├── example-prompts.md              Test prompts for every module with validation checklist
 │   └── glossary.md                     Plain-language definitions for non-expert users
 │
 ├── 📂 references/                       7 analytical pods (80 total modules)
