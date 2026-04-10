@@ -2,7 +2,7 @@
 layout: home
 title: Home
 nav_order: 1
-description: "Access to Housing — PropTech Intelligence Platform with 80 analytical modules, 65+ data sources, and full Fair Housing compliance."
+description: "Access to Housing — PropTech Intelligence Platform with 80 analytical modules, 85+ data sources, and full Fair Housing compliance."
 permalink: /
 ---
 
@@ -17,7 +17,7 @@ PropTech Intelligence Platform — Market analysis, climate risk scoring, and Fa
 
 ---
 
-**7 Core Modules** · **7 Reference Pods** · **80 Analytical Frameworks** · **65+ Data Sources** · **Zero Protected-Class Proxies**
+**7 Core Modules** · **7 Reference Pods** · **80 Analytical Frameworks** · **85+ Data Sources** · **Zero Protected-Class Proxies**
 
 ---
 
@@ -167,7 +167,7 @@ All analyses cite **primary, verifiable sources** with vintage dates. No invente
 | **Livability** | Walk Score / Transit Score, Trust for Public Land, FBI UCR/NIBRS, LEHD LODES |
 | **Community Trust** | Eviction Lab, NLIHC, HUD Counseling, 211 United Way, Municipal 311 / Open Data |
 
-See [Data Sources]({% link assets/data-sources.md %}) for the full reference with 65+ sources and direct links.
+See [Data Sources]({% link assets/data-sources.md %}) for the full reference with 85+ sources and direct links.
 
 ---
 

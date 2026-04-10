@@ -16,7 +16,7 @@ FAIR-HOUSING.md                   ← Compliance framework — READ FIRST before
 CONTRIBUTING.md                   ← Contribution guidelines
 CHANGELOG.md                      ← Version history
 assets/
-  data-sources.md                 ← 65+ authoritative data sources with links
+  data-sources.md                 ← 85+ authoritative data sources with links
   api-reference.md                ← Developer API guide (auth, endpoints, rate limits)
   output-schemas.md               ← JSON schemas for all scoring module outputs
   glossary.md                     ← Plain-language term definitions
@@ -95,7 +95,7 @@ These values appear in multiple files and must match:
 |-------|:-------:|-------|
 | Total modules | 80 | README.md, SKILL.md, CONTRIBUTING.md |
 | Reference pods | 7 | README.md, SKILL.md, CONTRIBUTING.md |
-| Data sources | 65+ | README.md, SKILL.md |
+| Data sources | 85+ | README.md, SKILL.md |
 | SKILL version | 31.0 | SKILL.md, CHANGELOG.md |
 
 ## Conventions

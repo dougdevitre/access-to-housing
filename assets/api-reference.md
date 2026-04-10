@@ -3,12 +3,12 @@ layout: default
 title: API Reference
 parent: Resources
 nav_order: 2
-description: "Developer guide to programmatic access for 65+ data sources — endpoints, auth, rate limits."
+description: "Developer guide to programmatic access for 85+ data sources — endpoints, auth, rate limits."
 ---
 
 # Data Source API Reference
 
-Developer-focused guide to programmatic access for the 65+ data sources used by Access to Housing.
+Developer-focused guide to programmatic access for the 85+ data sources used by Access to Housing.
 Organized by authentication type and access tier.
 
 ---
