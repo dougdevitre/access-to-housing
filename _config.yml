@@ -1,0 +1,79 @@
+title: Access to Housing
+description: PropTech Intelligence Platform — Market analysis, climate risk scoring, and Fair Housing-safe tooling for everyone.
+url: "https://dougdevitre.github.io"
+baseurl: "/access-to-housing"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Branding
+color_scheme: custom
+logo: "/assets/images/logo.svg"
+favicon_ico: "/assets/images/favicon.ico"
+
+# Footer
+footer_content: "Built with transparency. Designed for compliance. Open to everyone.<br>&copy; Doug Devitre — <a href=\"https://cotrackpro.com\">CoTrackPro</a> | MIT License"
+
+# Navigation
+nav_sort: case_insensitive
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Aux links (top right)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/dougdevitre/access-to-housing"
+aux_links_new_tab: true
+
+# Collections for organizing pages
+collections:
+  pods:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Exclude from build
+exclude:
+  - CLAUDE.md
+  - CONTRIBUTING.md
+  - CHANGELOG.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - vendor/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: "references"
+    values:
+      layout: default
+      parent: Reference Pods
+  - scope:
+      path: "assets"
+      type: "pages"
+    values:
+      layout: default
+      parent: Resources
+
+# Markdown
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  toc_levels: 2..3

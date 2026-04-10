@@ -1,3 +1,11 @@
+---
+layout: default
+title: Output Schemas
+parent: Resources
+nav_order: 3
+description: "JSON Schema definitions for all scoring and assessment module outputs."
+---
+
 # Output Schemas
 
 Machine-readable JSON schema definitions for all scoring and assessment modules.

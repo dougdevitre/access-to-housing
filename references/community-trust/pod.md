@@ -1,3 +1,11 @@
+---
+layout: default
+title: Community Trust
+parent: Reference Pods
+nav_order: 7
+description: "6 modules — civic transparency, community-reported conditions, displacement early warning, government accountability, neighborhood resources, community engagement"
+---
+
 # Pod: Community Trust & Transparency
 **6 modules** — civic transparency, community-reported conditions, displacement early warning, government accountability, neighborhood resources, community engagement
 

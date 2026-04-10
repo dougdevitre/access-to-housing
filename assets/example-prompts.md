@@ -1,3 +1,11 @@
+---
+layout: default
+title: Example Prompts
+parent: Resources
+nav_order: 4
+description: "Test prompts for every module with expected output structure and validation checklist."
+---
+
 # Example Prompts & Test Cases
 
 Use these prompts to test module outputs, verify scoring frameworks, and validate

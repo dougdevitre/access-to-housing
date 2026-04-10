@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Sources
+parent: Resources
+nav_order: 1
+description: "65+ authoritative data sources organized by category with direct links."
+---
+
 # Master Data Sources Reference
 
 Quick-access directory of authoritative sources by category.

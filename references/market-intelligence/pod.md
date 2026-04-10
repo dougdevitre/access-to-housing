@@ -1,3 +1,11 @@
+---
+layout: default
+title: Market Intelligence
+parent: Reference Pods
+nav_order: 1
+description: "16 modules — supply/demand fundamentals, macro trends, price indices, demographics, cycles"
+---
+
 # Pod: Market Intelligence
 **16 modules** — supply/demand fundamentals, macro trends, price indices, demographics, cycles
 

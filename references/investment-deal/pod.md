@@ -1,3 +1,11 @@
+---
+layout: default
+title: Investment & Deal
+parent: Reference Pods
+nav_order: 2
+description: "16 modules — opportunity scanning, underwriting, portfolio, capital flows, development, MLS"
+---
+
 # Pod: Investment & Deal
 **16 modules** — opportunity scanning, underwriting, portfolio, capital flows, development, MLS
 

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Glossary
+parent: Resources
+nav_order: 7
+description: "Plain-language definitions of key terms used across Access to Housing modules."
+---
+
 # Glossary
 
 Plain-language definitions of key terms used across Access to Housing modules.
