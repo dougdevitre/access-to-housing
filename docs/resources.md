@@ -12,7 +12,7 @@ Developer and user resources for working with Access to Housing.
 
 | Resource | Description |
 |----------|-------------|
-| [Data Sources]({% link assets/data-sources.md %}) | 65+ authoritative data sources with direct links |
+| [Data Sources]({% link assets/data-sources.md %}) | 85+ authoritative data sources with direct links |
 | [API Reference]({% link assets/api-reference.md %}) | Developer guide — endpoints, auth types, rate limits |
 | [Output Schemas]({% link assets/output-schemas.md %}) | JSON Schema definitions for all scoring modules |
 | [Example Prompts]({% link assets/example-prompts.md %}) | Test cases for every module with expected outputs |

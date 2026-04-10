@@ -100,7 +100,7 @@ If you're building applications that integrate with Access to Housing, these res
 | Resource | Path | What It Contains |
 |----------|------|------------------|
 | **Output Schemas** | [`assets/output-schemas.md`](assets/output-schemas.md) | JSON Schema definitions for all scoring modules — Livability, Opportunity Scanner, Displacement, Accountability, Conditions, Platform Brief |
-| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 65+ data sources organized by auth type (free/key/paid), with endpoints, rate limits, and integration patterns |
+| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 85+ data sources organized by auth type (free/key/paid), with endpoints, rate limits, and integration patterns |
 | **Glossary** | [`assets/glossary.md`](assets/glossary.md) | 40+ term definitions for building user-facing interfaces |
 | **CLAUDE.md** | [`CLAUDE.md`](CLAUDE.md) | Repo context for developers using Claude Code — architecture decisions, file relationships, sync points |
 

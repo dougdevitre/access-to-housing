@@ -14,7 +14,7 @@
 
 <br>
 
-**7 Core Modules** · **7 Reference Pods** · **65+ Data Sources** · **Zero Protected-Class Proxies**
+**7 Core Modules** · **7 Reference Pods** · **85+ Data Sources** · **Zero Protected-Class Proxies**
 
 <br>
 
@@ -91,7 +91,7 @@ Access to Housing is a [Claude Custom Skill](https://docs.claude.com) that acts 
 ```mermaid
 flowchart LR
     A["🗣️ Your Question"] --> B["🧠 Module Selection"]
-    B --> C["📡 Data Sources\n(65+ APIs & Databases)"]
+    B --> C["📡 Data Sources\n(85+ APIs & Databases)"]
     C --> D["⚖️ Fair Housing\nCompliance Check"]
     D --> E["📊 Structured\nAnalysis Output"]
 
@@ -309,7 +309,7 @@ flowchart LR
     end
 
     subgraph CONNECT ["🔌 Connect"]
-        B1["API Reference\n(65+ sources by auth tier)"]
+        B1["API Reference\n(85+ sources by auth tier)"]
     end
 
     subgraph BUILD ["🏗️ Build"]
@@ -331,7 +331,7 @@ flowchart LR
 | Resource | Path | What It Contains |
 |----------|------|------------------|
 | **Output Schemas** | [`assets/output-schemas.md`](assets/output-schemas.md) | JSON Schema definitions for Livability, Opportunity Scanner, Displacement, Accountability, Conditions, Platform Brief |
-| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 65+ sources organized by auth type — endpoints, rate limits, 3 integration patterns |
+| **API Reference** | [`assets/api-reference.md`](assets/api-reference.md) | 85+ sources organized by auth type — endpoints, rate limits, 3 integration patterns |
 | **Glossary** | [`assets/glossary.md`](assets/glossary.md) | 40+ term definitions for building user-facing interfaces |
 | **Example Prompts** | [`assets/example-prompts.md`](assets/example-prompts.md) | Test cases for every module — input prompts with expected output structure |
 | **CLAUDE.md** | [`CLAUDE.md`](CLAUDE.md) | Repo context for Claude Code — architecture decisions, file sync points, conventions |
@@ -703,7 +703,7 @@ flowchart LR
 </tr>
 </table>
 
-See [`assets/data-sources.md`](assets/data-sources.md) for the full reference with 65+ sources and direct links.
+See [`assets/data-sources.md`](assets/data-sources.md) for the full reference with 85+ sources and direct links.
 
 ---
 
@@ -753,7 +753,7 @@ access-to-housing/
 ├── 🧠 CLAUDE.md                        Developer context for Claude Code contributors
 │
 ├── 📂 assets/
-│   ├── data-sources.md                 65+ authoritative data sources with links
+│   ├── data-sources.md                 85+ authoritative data sources with links
 │   ├── api-reference.md                Developer API guide — endpoints, auth, rate limits
 │   ├── output-schemas.md               JSON schemas for all scoring module outputs
 │   ├── example-prompts.md              Test prompts for every module with validation checklist
@@ -802,7 +802,7 @@ No — Access to Housing is a **Claude Custom Skill** (a `.skill` file you uploa
 <details>
 <summary><strong>Where does the data come from?</strong></summary>
 
-All analysis references **65+ authoritative public and commercial data sources** — Census Bureau, FHFA, Zillow, Redfin, First Street Foundation, FEMA, Walk Score, Eviction Lab, and more. Every data point cites its source name and vintage date so you can verify it. The platform never invents data. See [`assets/data-sources.md`](assets/data-sources.md) for the full list.
+All analysis references **85+ authoritative public and commercial data sources** — Census Bureau, FHFA, Zillow, Redfin, First Street Foundation, FEMA, Walk Score, Eviction Lab, and more. Every data point cites its source name and vintage date so you can verify it. The platform never invents data. See [`assets/data-sources.md`](assets/data-sources.md) for the full list.
 </details>
 
 <details>

@@ -3,7 +3,7 @@ layout: default
 title: Data Sources
 parent: Resources
 nav_order: 1
-description: "65+ authoritative data sources organized by category with direct links."
+description: "85+ authoritative data sources organized by category with direct links."
 ---
 
 # Master Data Sources Reference
