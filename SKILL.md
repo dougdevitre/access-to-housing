@@ -1,20 +1,12 @@
 ---
 name: access-to-housing
+layout: default
+title: Skill Definition
+nav_order: 2
+description: "Core skill definition — 7 modules, scoring frameworks, and cross-module references."
 metadata:
   version: "31.0"
   author: Doug Devitre
-description: |
-  Access to Housing — open-source PropTech intelligence platform for real estate professionals,
-  investors, housing advocates, and researchers. Part of CoTrackPro's Access Projects. Use for
-  housing market analysis, property investment research, neighborhood scoring, permit intelligence,
-  supply forecasting, climate risk, satellite development detection, infrastructure heatmaps, and
-  opportunity scanning, community trust, civic transparency, and displacement risk analysis.
-  7 core modules + 7 reference pods (80 total). Fair Housing-safe by default.
-  Trigger for: "analyze this market", "neighborhood score", "where to invest", "housing supply
-  forecast", "climate risk real estate", "permit pipeline", "best areas to buy", "development
-  pipeline", "migration trends", "opportunity scan", "cap rate", "housing inventory", "livability
-  score", "climate migration", "infrastructure growth", "community trust", "displacement risk",
-  "zoning decisions", "civic transparency", "government accountability", "housing resources".
 ---
 
 # Access to Housing — PropTech Intelligence Platform

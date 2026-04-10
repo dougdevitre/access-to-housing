@@ -1,3 +1,11 @@
+---
+layout: default
+title: Risk & Climate
+parent: Reference Pods
+nav_order: 3
+description: "6 modules — climate risk, construction risk, zoning, supply chain, tenant screening"
+---
+
 # Pod: Risk & Climate
 **6 modules** — climate risk, construction risk, zoning, supply chain, tenant screening
 

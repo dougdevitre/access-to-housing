@@ -1,0 +1,131 @@
+// Access to Housing — Custom theme overrides for just-the-docs
+
+// Color scheme
+$link-color: #3b82f6;
+$body-heading-color: #1e293b;
+$nav-child-link-color: #475569;
+$search-result-preview-color: #64748b;
+$feedback-color: darken($link-color, 5%);
+$btn-primary-color: #3b82f6;
+
+// Hero section styling
+.fs-9 {
+  font-size: 2.5rem !important;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.2;
+
+  @media (min-width: 66.5rem) {
+    font-size: 3rem !important;
+  }
+}
+
+.fs-6 {
+  color: #475569;
+}
+
+// Button overrides
+.btn-primary {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+
+  &:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+  }
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+}
+
+// Tables
+.main-content table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th {
+    background-color: #f1f5f9;
+    font-weight: 600;
+    color: #334155;
+  }
+
+  td, th {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #e2e8f0;
+  }
+
+  tr:hover td {
+    background-color: #f8fafc;
+  }
+}
+
+// Blockquotes — used for callouts
+blockquote {
+  border-left: 4px solid #3b82f6;
+  background-color: #eff6ff;
+  padding: 1rem 1.25rem;
+  border-radius: 0 6px 6px 0;
+  color: #1e40af;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// Code blocks
+.highlight,
+pre.highlight {
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+code {
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+// Navigation
+.nav-list .nav-list-item .nav-list-link.active {
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+// Horizontal rules
+hr {
+  border-top: 2px solid #e2e8f0;
+  margin: 2rem 0;
+}
+
+// Footer
+.site-footer {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+// Responsive improvements
+@media (max-width: 50rem) {
+  .fs-9 {
+    font-size: 2rem !important;
+  }
+
+  .main-content table {
+    font-size: 0.85rem;
+  }
+}
+
+// Search styling
+.search-input {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+
+  &:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  }
+}

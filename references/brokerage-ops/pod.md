@@ -1,3 +1,11 @@
+---
+layout: default
+title: Brokerage Ops
+parent: Reference Pods
+nav_order: 5
+description: "18 modules — CRM, leads, pipeline, buyer/seller workflows, transactions, marketing"
+---
+
 # Pod: Brokerage Ops
 **18 modules** — CRM, leads, pipeline, buyer/seller workflows, transactions, marketing
 

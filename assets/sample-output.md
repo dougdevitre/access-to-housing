@@ -1,3 +1,11 @@
+---
+layout: default
+title: Sample Output
+parent: Resources
+nav_order: 5
+description: "Complete Platform Brief example showing Nashville, TN multi-module analysis."
+---
+
 # Sample Output: Platform Brief
 
 This is a **template example** showing what a complete multi-module Platform Brief looks like

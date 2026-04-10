@@ -1,3 +1,11 @@
+---
+layout: default
+title: Brokerage Strategy
+parent: Reference Pods
+nav_order: 6
+description: "10 modules — brokerage growth, recruiting, financial modeling, executive reporting, agent development"
+---
+
 # Pod: Brokerage Strategy
 **10 modules** — brokerage growth, recruiting, financial modeling, executive reporting, agent development
 

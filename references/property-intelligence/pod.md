@@ -1,3 +1,11 @@
+---
+layout: default
+title: Property Intelligence
+parent: Reference Pods
+nav_order: 4
+description: "10 modules — valuation, pricing, neighborhood scoring, infrastructure, rental, listing performance"
+---
+
 # Pod: Property Intelligence
 **10 modules** — valuation, pricing, neighborhood scoring, infrastructure, rental, listing performance
 

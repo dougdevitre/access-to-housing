@@ -1,3 +1,11 @@
+---
+layout: default
+title: International Guide
+parent: Resources
+nav_order: 6
+description: "Adaptation guide for UK, Canada, and Australia housing markets."
+---
+
 # International Market Adaptation Guide
 
 Access to Housing is primarily designed for US markets, but the analytical frameworks are

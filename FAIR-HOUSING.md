@@ -1,3 +1,10 @@
+---
+layout: default
+title: Fair Housing Compliance
+nav_order: 3
+description: "How Access to Housing ensures compliance with the Fair Housing Act across all modules."
+---
+
 # Fair Housing Compliance Framework
 
 This document describes how Access to Housing ensures compliance with the [Fair Housing Act](https://www.justice.gov/crt/fair-housing-act-1) (42 U.S.C. §§ 3601–3619) across all modules and analytical outputs.
