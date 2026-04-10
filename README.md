@@ -10,6 +10,7 @@
 [![Fair Housing](https://img.shields.io/badge/Fair_Housing-Compliant-2ea44f.svg?style=for-the-badge)](#-fair-housing-compliance)
 [![Modules](https://img.shields.io/badge/Modules-80_Frameworks-orange.svg?style=for-the-badge)](#-reference-pods--80-modules)
 [![Part of](https://img.shields.io/badge/CoTrackPro-Access_Projects-7c3aed.svg?style=for-the-badge)](https://github.com/CoTrackPro)
+[![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-222222.svg?style=for-the-badge&logo=github)](https://dougdevitre.github.io/access-to-housing/)
 
 <br>
 
@@ -287,7 +288,11 @@ pie title Module Distribution Across Pods
 | *"Displacement risk assessment for East Nashville"* | Community Trust Pod |
 | *"How responsive is code enforcement in my city?"* | Community Trust Pod |
 
-### Option 2: Reference Library
+### Option 2: Documentation Site
+
+Browse the full platform documentation at **[dougdevitre.github.io/access-to-housing](https://dougdevitre.github.io/access-to-housing/)** — searchable, mobile-friendly, with navigable reference pods and resource pages.
+
+### Option 3: Reference Library
 
 Browse the [`references/`](references/) directory directly — each pod contains scoring rubrics, data source recommendations, output templates, and methodology notes you can use independently.
 
@@ -745,7 +750,6 @@ access-to-housing/
 ├── ⚖️ FAIR-HOUSING.md                  Compliance framework & checklist
 ├── 🤝 CONTRIBUTING.md                  How to contribute
 ├── 📜 LICENSE                           MIT
-│
 ├── 🧠 CLAUDE.md                        Developer context for Claude Code contributors
 │
 ├── 📂 assets/
@@ -755,7 +759,8 @@ access-to-housing/
 │   ├── example-prompts.md              Test prompts for every module with validation checklist
 │   ├── sample-output.md                Complete Platform Brief example (Nashville, TN)
 │   ├── international-guide.md          Adaptation guide for UK, Canada, Australia markets
-│   └── glossary.md                     Plain-language definitions for non-expert users
+│   ├── glossary.md                     Plain-language definitions for non-expert users
+│   └── images/logo.svg                 Platform logo
 │
 ├── 📂 references/                       7 analytical pods (80 total modules)
 │   ├── market-intelligence/pod.md      16 modules — pricing, supply, cycles, migration
@@ -766,11 +771,22 @@ access-to-housing/
 │   ├── brokerage-strategy/pod.md       10 modules — growth, recruiting, financial planning
 │   └── community-trust/pod.md           6 modules — civic transparency, displacement, accountability
 │
-└── 📂 .github/ISSUE_TEMPLATE/
-    ├── module-request.yml               Request a new analytical module
-    ├── data-source.yml                  Suggest a data source
-    ├── fair-housing-concern.yml         Flag a Fair Housing compliance issue
-    └── community-resource.yml           Submit a local housing resource
+├── 📂 docs/                             GitHub Pages supplemental pages
+│   ├── reference-pods.md               Pod navigation page
+│   └── resources.md                    Resources navigation page
+│
+├── 📂 _sass/                            GitHub Pages custom styling
+├── 📄 _config.yml                       Jekyll / GitHub Pages configuration
+├── 📄 index.md                          GitHub Pages home page
+├── 📄 Gemfile                           Jekyll dependencies
+│
+└── 📂 .github/
+    ├── workflows/pages.yml              GitHub Pages deployment workflow
+    └── ISSUE_TEMPLATE/
+        ├── module-request.yml           Request a new analytical module
+        ├── data-source.yml              Suggest a data source
+        ├── fair-housing-concern.yml     Flag a Fair Housing compliance issue
+        └── community-resource.yml       Submit a local housing resource
 ```
 
 ---
@@ -780,7 +796,7 @@ access-to-housing/
 <details>
 <summary><strong>Is this an app I can download?</strong></summary>
 
-No — Access to Housing is a **Claude Custom Skill** (a `.skill` file you upload to Claude.ai). It turns Claude into a specialized PropTech intelligence analyst. There's no separate app, database, or server to run. You ask questions in plain English and get structured, cited analysis back.
+No — Access to Housing is a **Claude Custom Skill** (a `.skill` file you upload to Claude.ai). It turns Claude into a specialized PropTech intelligence analyst. There's no separate app, database, or server to run. You ask questions in plain English and get structured, cited analysis back. You can also browse all modules, scoring frameworks, and data sources on the [documentation site](https://dougdevitre.github.io/access-to-housing/).
 </details>
 
 <details>
