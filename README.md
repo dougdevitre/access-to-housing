@@ -780,11 +780,13 @@ access-to-housing/
 ├── 📄 index.md                          GitHub Pages home page
 ├── 📄 Gemfile                           Jekyll dependencies
 │
-└── 📂 .github/ISSUE_TEMPLATE/
-    ├── module-request.yml               Request a new analytical module
-    ├── data-source.yml                  Suggest a data source
-    ├── fair-housing-concern.yml         Flag a Fair Housing compliance issue
-    └── community-resource.yml           Submit a local housing resource
+└── 📂 .github/
+    ├── workflows/pages.yml              GitHub Pages deployment workflow
+    └── ISSUE_TEMPLATE/
+        ├── module-request.yml           Request a new analytical module
+        ├── data-source.yml              Suggest a data source
+        ├── fair-housing-concern.yml     Flag a Fair Housing compliance issue
+        └── community-resource.yml       Submit a local housing resource
 ```
 
 ---
