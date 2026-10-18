@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Fair Housing](https://img.shields.io/badge/Fair_Housing-Compliant-2ea44f.svg?style=for-the-badge)](#-fair-housing-compliance)
 [![Modules](https://img.shields.io/badge/Modules-80_Frameworks-orange.svg?style=for-the-badge)](#-reference-pods--80-modules)
-[![Part of](https://img.shields.io/badge/CoTrackPro-Access_Projects-7c3aed.svg?style=for-the-badge)](https://github.com/CoTrackPro)
+[![Part of Access To](https://img.shields.io/badge/Part_of-Access_To-2D5A7B.svg?style=for-the-badge)](https://dougdevitre.org)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-222222.svg?style=for-the-badge&logo=github)](https://dougdevitre.github.io/access-to-housing/)
 
 <br>
@@ -869,11 +869,11 @@ flowchart LR
 
 | Pillar | Repository | Focus |
 |:------:|-----------|-------|
-| ⚖️ | [access-to](https://github.com/CoTrackPro/access-to) | Family law documentation, expungement, protection orders |
-| 📚 | [access-to-education](https://github.com/CoTrackPro/access-to-education) | K-12 standards, IEP/504 support, educator tools |
+| 🧭 | [access-to](https://github.com/dougdevitre/access-to) | Hub for every Access To project — [dougdevitre.org](https://dougdevitre.org) |
+| 📚 | [access-to-education](https://github.com/dougdevitre/access-to-education) | K-12 standards, IEP/504 support, educator tools |
 | **🏠** | **access-to-housing** | **PropTech intelligence, Fair Housing-safe analysis** |
-| 🤝 | [access-to-services](https://github.com/CoTrackPro/access-to-services) | Legal aid, mental health, advocacy resource navigation |
-| ☮️ | *coming soon* | De-escalation, communication, conflict resolution |
+| 🤝 | [access-to-services](https://github.com/dougdevitre/access-to-services) | Legal aid, mental health, advocacy resource navigation |
+| ☮️ | [access-to-peace](https://github.com/dougdevitre/access-to-peace) | De-escalation, communication, conflict resolution |
 
 ---
 
