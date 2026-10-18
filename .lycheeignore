@@ -14,3 +14,20 @@
 
 # Placeholder pattern from the docs ("311.city.gov" stands for a city's portal).
 ^https?://311\.city\.gov
+
+# Root-relative Jekyll links such as /access-to-housing/reference-pods/ point at
+# pages GitHub Pages builds under the site's baseurl, not at files in the repo,
+# so they cannot be checked as local files.
+^file://.*/access-to-housing/reference-pods/?$
+
+# housepriceindex.ca (Teranet-National Bank HPI) loads in browsers, but lychee's
+# TLS stack does not trust its certificate chain. Checked by hand 2026-10-18.
+^https?://(www\.)?housepriceindex\.ca
+
+# TEMPORARY, both are this project's own sites, not data sources:
+# - dougdevitre.github.io/access-to-housing: the "Deploy to GitHub Pages"
+#   workflow has failed on every run since April 2026, so the docs site 404s.
+# - dougdevitre.org: the Access To hub returned 404 on 2026-10-18.
+# Remove these lines once the sites serve again.
+^https?://dougdevitre\.github\.io/access-to-housing
+^https?://(www\.)?dougdevitre\.org

@@ -22,7 +22,6 @@ Load this file when a user asks "where do I get data for X" or needs source cita
 | Dodge Construction Network | construction.com | Project starts, pipeline | Monthly |
 | CoStar | costar.com | Commercial permits, MF pipeline | Ongoing |
 | BuildZoom | buildzoom.com | Local permit aggregation | Ongoing |
-| PermitData.com | permitdata.com | National permit database | Ongoing |
 | NAHB Housing Market Index | nahb.org | Builder sentiment | Monthly |
 | DR Horton / Lennar / Pulte earnings | IR sites | Community count, delivery guidance | Quarterly |
 | Turner Building Cost Index | turnerconstruction.com | Construction cost trend | Quarterly |
@@ -49,7 +48,7 @@ Load this file when a user asks "where do I get data for X" or needs source cita
 ## Migration & Demographics
 | Source | URL | Data | Cadence |
 |--------|-----|------|---------|
-| IRS Statistics of Income | irs.gov/statistics/soi | County-to-county migration | Annual (18mo lag) |
+| IRS Statistics of Income | irs.gov/statistics/soi-tax-stats-migration-data | County-to-county migration | Annual (18mo lag) |
 | Census ACS 1-Year | census.gov/acs | Demographics, migration | Annual |
 | Census Population Projections | census.gov | 2050 projections | Multi-year |
 | Harvard JCHS | jchs.harvard.edu | State of Nation's Housing | Annual |

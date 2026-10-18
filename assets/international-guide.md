@@ -36,7 +36,7 @@ to their equivalents in other countries.
 | US Source | UK Equivalent | URL | Notes |
 |----------|--------------|-----|-------|
 | Census ACS | ONS Census / Annual Population Survey | ons.gov.uk | Updated annually |
-| FHFA HPI | UK HPI (HM Land Registry) | gov.uk/government/collections/uk-house-price-index | Monthly, by local authority |
+| FHFA HPI | UK HPI (HM Land Registry) | landregistry.data.gov.uk/app/ukhpi | Monthly, by local authority |
 | Census Building Permits | NHBC new home registrations | nhbc.co.uk | Quarterly |
 | Zillow ZHVI | Rightmove / Zoopla indices | rightmove.co.uk/house-price-index | Monthly |
 | Walk Score | Walk Score (available for UK) | walkscore.com | Limited coverage |
@@ -64,7 +64,7 @@ to their equivalents in other countries.
 | First Street Foundation | Climate risk via NRCan | natural-resources.canada.ca | Flood/fire mapping |
 | FBI UCR | Statistics Canada Uniform Crime Reporting | statcan.gc.ca | Annual |
 | IRS SOI Migration | Statistics Canada mobility data | statcan.gc.ca | Census-based |
-| FEMA FIRM | Federal flood mapping via NRCan | geoscan.nrcan.gc.ca | Provincial responsibility |
+| FEMA FIRM | Federal flood mapping via NRCan | natural-resources.canada.ca | Provincial responsibility |
 | HUD Housing Counseling | CMHC housing resources | cmhc-schl.gc.ca | National |
 
 **Fair Housing equivalent**: Canadian Human Rights Act + provincial human rights codes — protected grounds vary by province but include race, national/ethnic origin, colour, religion, age, sex, sexual orientation, gender identity, marital status, family status, disability.

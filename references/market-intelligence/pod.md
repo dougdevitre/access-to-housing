@@ -100,7 +100,7 @@ Next Steps: pull permits for flagged parcels | 90-day imagery update | developer
 supply changes and neighborhood growth zones before they hit the market.
 
 **Key Data Sources**: Census BPS (census.gov/construction/bps), Accela, state aggregators
-(TX TDLR, CA HCD), CoStar, BuildZoom, PermitData.com, Dodge Construction Network
+(TX TDLR, CA HCD), CoStar, BuildZoom, Dodge Construction Network
 
 **Permit Categories**: SFR | Multifamily 2–4 | Multifamily 5+ | ADU | Mixed-use
 

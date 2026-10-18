@@ -164,7 +164,7 @@ likely completions — to anticipate supply changes before they hit MLS.
   of Licensing and Regulation, California's HCD).
 - **Federal data**: U.S. Census Bureau Building Permits Survey (monthly, MSA-level).
   Available at census.gov/construction/bps/
-- **Third-party aggregators**: CoStar, BuildZoom, PermitData.com, Dodge Construction Network.
+- **Third-party aggregators**: CoStar, BuildZoom, Dodge Construction Network.
 
 ### Permit Categories
 - **Residential SFR**: Single-family residential — highest price-per-unit, neighborhood-scale signal
@@ -1147,11 +1147,11 @@ Use these sources by category. Always cite source name and vintage when referenc
 - U.S. Census Bureau Building Permits Survey — census.gov/construction/bps/
 - NAHB Housing Market Index (monthly sentiment) — nahb.org
 - Dodge Construction Network — new project starts and pipeline
-- CoStar, BuildZoom, PermitData.com — local permit aggregation
+- CoStar, BuildZoom — local permit aggregation
 - Public homebuilder quarterly earnings (D.R. Horton, Lennar, PulteGroup, Toll Brothers)
 
 ### Market Pricing & Transactions
-- Zillow Research — zillowgroup.com/research
+- Zillow Research — zillow.com/research/data/
 - Redfin Data Center — redfin.com/news/data-center
 - Attom Data Solutions — attomdata.com
 - NAR Existing Home Sales / Affordability Index — nar.realtor/research-and-statistics

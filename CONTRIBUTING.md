@@ -126,5 +126,5 @@ If you're building applications that integrate with Access to Housing, these res
 
 ## Questions?
 
-- Open a [discussion](https://github.com/dougdevitre/access-to-housing/discussions) or [issue](https://github.com/dougdevitre/access-to-housing/issues)
+- Open an [issue](https://github.com/dougdevitre/access-to-housing/issues)
 - Email: [dougdevitre@gmail.com](mailto:dougdevitre@gmail.com)

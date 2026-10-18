@@ -40,7 +40,7 @@ Organized by authentication type and access tier.
 |--------|----------|------|------|--------|------------|
 | **Census API** | `api.census.gov` | Free API key via `api.census.gov/data/key_signup.html` | All Census datasets | JSON | Unlimited with key |
 | **Walk Score** | `api.walkscore.com/score` | Free API key (limited) | Walk/Transit/Bike scores by lat/lng | JSON/XML | 5,000 req/day (free) |
-| **Zillow (ZTRAX)** | `zillowgroup.com/research` | Academic/research application | ZHVI, ZORI, home values | CSV | Bulk download after approval |
+| **Zillow (ZTRAX)** | `zillow.com/research/data/` | Academic/research application | ZHVI, ZORI, home values | CSV | Bulk download after approval |
 | **Redfin Data Center** | `redfin.com/news/data-center` | No key, but structured download | Market metrics, migration search | TSV | Bulk download |
 | **HUD Housing Counseling** | `data.hud.gov/Housing_Counselor/` | Free API | HUD-approved counselors by ZIP | JSON/XML | Open access |
 | **211 API** | Varies by region | Contact local 211 | Community resource directory | JSON | Varies |
