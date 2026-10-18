@@ -25,7 +25,7 @@ Organized by authentication type and access tier.
 | **USDA Food Access** | `ers.usda.gov/data-products/food-access-research-atlas` | Food desert mapping by census tract | CSV/Excel | Bulk download |
 | **HUD AFFH** | `huduser.gov/portal/datasets` | Fair Housing assessment data | CSV | Bulk download |
 | **National Zoning Atlas** | `zoningatlas.org` | Statewide zoning maps (growing coverage) | GeoJSON | Open access |
-| **FBI UCR/NIBRS** | `crime-data-explorer.fr.cloud.gov/api` | Crime rates by jurisdiction | JSON | Open, no key needed |
+| **FBI UCR/NIBRS** | `api.usa.gov/crime/fbi/` (Crime Data Explorer API) | Crime rates by jurisdiction | JSON | Free api.data.gov key required |
 | **Eviction Lab** | `evictionlab.org/map` | Eviction filing rates by geography | CSV | Bulk download |
 | **NLIHC** | `nlihc.org/housing-needs-by-state` | Affordable housing gap analysis | PDF/CSV | Reports, no API |
 | **USPS Vacancy** | `huduser.gov/portal/datasets/usps.html` | Address-level vacancy data (aggregated) | CSV | Quarterly bulk download |
@@ -40,7 +40,7 @@ Organized by authentication type and access tier.
 |--------|----------|------|------|--------|------------|
 | **Census API** | `api.census.gov` | Free API key via `api.census.gov/data/key_signup.html` | All Census datasets | JSON | Unlimited with key |
 | **Walk Score** | `api.walkscore.com/score` | Free API key (limited) | Walk/Transit/Bike scores by lat/lng | JSON/XML | 5,000 req/day (free) |
-| **Zillow (ZTRAX)** | `zillowgroup.com/research` | Academic/research application | ZHVI, ZORI, home values | CSV | Bulk download after approval |
+| **Zillow (ZTRAX)** | `zillow.com/research/data/` | Academic/research application | ZHVI, ZORI, home values | CSV | Bulk download after approval |
 | **Redfin Data Center** | `redfin.com/news/data-center` | No key, but structured download | Market metrics, migration search | TSV | Bulk download |
 | **HUD Housing Counseling** | `data.hud.gov/Housing_Counselor/` | Free API | HUD-approved counselors by ZIP | JSON/XML | Open access |
 | **211 API** | Varies by region | Contact local 211 | Community resource directory | JSON | Varies |
