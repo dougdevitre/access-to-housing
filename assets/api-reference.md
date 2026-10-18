@@ -25,7 +25,7 @@ Organized by authentication type and access tier.
 | **USDA Food Access** | `ers.usda.gov/data-products/food-access-research-atlas` | Food desert mapping by census tract | CSV/Excel | Bulk download |
 | **HUD AFFH** | `huduser.gov/portal/datasets` | Fair Housing assessment data | CSV | Bulk download |
 | **National Zoning Atlas** | `zoningatlas.org` | Statewide zoning maps (growing coverage) | GeoJSON | Open access |
-| **FBI UCR/NIBRS** | `crime-data-explorer.fr.cloud.gov/api` | Crime rates by jurisdiction | JSON | Open, no key needed |
+| **FBI UCR/NIBRS** | `api.usa.gov/crime/fbi/` (Crime Data Explorer API) | Crime rates by jurisdiction | JSON | Free api.data.gov key required |
 | **Eviction Lab** | `evictionlab.org/map` | Eviction filing rates by geography | CSV | Bulk download |
 | **NLIHC** | `nlihc.org/housing-needs-by-state` | Affordable housing gap analysis | PDF/CSV | Reports, no API |
 | **USPS Vacancy** | `huduser.gov/portal/datasets/usps.html` | Address-level vacancy data (aggregated) | CSV | Quarterly bulk download |

@@ -11,6 +11,8 @@ description: "85+ authoritative data sources organized by category with direct l
 Quick-access directory of authoritative sources by category.
 Load this file when a user asks "where do I get data for X" or needs source citations.
 
+> Last verified: 2026-10-18. Links are checked monthly by the link-check workflow.
+
 ---
 
 ## Supply, Permits & Construction
@@ -167,5 +169,5 @@ Load this file when a user asks "where do I get data for X" or needs source cita
 | NeighborWorks America | neighborworks.org | Community development network | Ongoing |
 | USDA Food Access Research Atlas | ers.usda.gov/data-products/food-access-research-atlas | Food desert mapping | Updated periodically |
 | HUD AFFH Data & Mapping | huduser.gov/portal/datasets | Fair housing assessment data | Updated periodically |
-| US PIRG Transparency Reports | uspirg.org | Government transparency rankings | Annual |
+| US PIRG Transparency Reports | pirg.org | Government transparency rankings | Annual |
 | Open Data Portals | data.gov / city portals | 311, code enforcement, permits, budgets | Varies |

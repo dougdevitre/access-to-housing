@@ -1,0 +1,16 @@
+# Exclusions for the Link check workflow (.github/workflows/link-check.yml).
+# One regular expression per line. Every entry says why it is skipped.
+
+# tel: and sms: links are phone numbers, not web pages, so there is nothing to fetch.
+^tel:
+^sms:
+
+# API endpoints (api.census.gov, api.walkscore.com, api.usa.gov, ...) are named as
+# endpoints for developers. They answer 4xx without a key or query, which is not
+# a dead link.
+^https?://api[.-]
+^https?://data\.hud\.gov/Housing_Counselor
+^https?://airdna\.co/api
+
+# Placeholder pattern from the docs ("311.city.gov" stands for a city's portal).
+^https?://311\.city\.gov

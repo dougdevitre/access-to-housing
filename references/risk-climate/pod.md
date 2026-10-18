@@ -253,7 +253,7 @@ to support leasing decisions, portfolio underwriting, and rental pricing.
 
 **Risk Signal Adjustments**:
 - Student / co-signer situations: Require co-signer with 4x rent income
-- Section 8 / voucher holders: Stable income source, additional protections apply
+- Section 8 / voucher holders: Stable income source; source-of-income protections apply in some states and cities
 - Short employment tenure (<6 months): Higher weight on credit and reserves
 - Recent bankruptcy: Review discharge date and post-BK credit behavior
 
