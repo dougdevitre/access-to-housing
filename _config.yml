@@ -52,6 +52,8 @@ exclude:
   - Gemfile.lock
   - "*.gemspec"
   - vendor/
+  - scripts/
+  - dist/
 
 # Plugins
 plugins:

@@ -273,11 +273,20 @@ pie title Module Distribution Across Pods
 
 ### Option 1: Claude Custom Skill
 
-```
-1. Download the .skill file from Releases
-2. Claude.ai → Settings → Custom Skills → Upload
-3. Start asking questions
-```
+Add Access to Housing to Claude at [claude.ai](https://claude.ai) in a few clicks. It works on the Free, Pro, Max, Team and Enterprise plans.
+
+1. **Download the install file:** [access-to-housing.zip](https://github.com/dougdevitre/access-to-housing/releases/download/skill-latest/access-to-housing.zip)
+2. **Don't unzip it.** Claude needs the `.zip` file just as it downloaded.
+3. **Turn on code execution.** Skills need it.
+   - **Free, Pro or Max:** open **Settings > Capabilities** and turn on **Code execution and file creation**.
+   - **Team or Enterprise:** an organization owner opens **Organization settings > Plugins & skills**, clicks the **Policy** tab, and turns on both **Code execution and file creation** and **Skills**.
+4. **Upload it:** open **Customize > Skills**, click **+**, then **+ Create skill**, then **Upload a skill**, and choose `access-to-housing.zip`.
+5. **Turn it on:** in **Customize > Skills**, switch on **access-to-housing**. Claude will now use it for any housing market, investment or brokerage question.
+
+These steps come from Claude's help center: [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
+If the link 404s, the first release hasn't been published yet.
+
+Maintainers and forks: `scripts/build-skill-zip.sh` builds the same file into `dist/`. The Skill package workflow republishes it on every change to `main`.
 
 **Try these prompts:**
 
@@ -801,7 +810,7 @@ access-to-housing/
 <details>
 <summary><strong>Is this an app I can download?</strong></summary>
 
-No — Access to Housing is a **Claude Custom Skill** (a `.skill` file you upload to Claude.ai). It turns Claude into a specialized PropTech intelligence analyst. There's no separate app, database, or server to run. You ask questions in plain English and get structured, cited analysis back. You can also browse all modules, scoring frameworks, and data sources on the [documentation site](https://dougdevitre.github.io/access-to-housing/).
+No — Access to Housing is a **Claude Custom Skill** (a `.zip` file you upload to Claude.ai; see [Quick Start](#-quick-start)). It turns Claude into a specialized PropTech intelligence analyst. There's no separate app, database, or server to run. You ask questions in plain English and get structured, cited analysis back. You can also browse all modules, scoring frameworks, and data sources on the [documentation site](https://dougdevitre.github.io/access-to-housing/).
 </details>
 
 <details>
