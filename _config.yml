@@ -61,7 +61,16 @@ plugins:
   - jekyll-include-cache
 
 # Defaults
+# SKILL.md takes its page settings from here, not from its own front matter:
+# the skill validator (skill-creator's quick_validate.py) allows only name,
+# description, license, allowed-tools, metadata and compatibility there.
 defaults:
+  - scope:
+      path: "SKILL.md"
+    values:
+      layout: default
+      title: Skill Definition
+      nav_order: 2
   - scope:
       path: "references"
     values:
