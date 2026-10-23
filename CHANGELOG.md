@@ -4,6 +4,22 @@ All notable changes to the Access to Housing platform are documented here.
 
 ---
 
+## [31.1] — 2026-10-22
+
+### Added
+- **Reference routing in SKILL.md** — a "Reference Files — When to Load Them" section with one row per
+  pod (topics taken from each pod's Module Index, plus its `references/*/pod.md` path), when to load
+  `assets/data-sources.md`, `assets/output-schemas.md` and `assets/glossary.md`, and a pointer to the
+  Pre-Delivery Compliance Checklist in `FAIR-HOUSING.md`. Before this, SKILL.md never told Claude to
+  open the pod files or assets.
+
+### Changed
+- **SKILL.md frontmatter `description`** now says what the skill does and when to trigger (892
+  characters, from the pods' own topics) instead of a docs-site blurb. The Jekyll keys (`layout`,
+  `title`, `nav_order`) are unchanged.
+
+---
+
 ## [31.0] — 2026-04-05
 
 ### Added
