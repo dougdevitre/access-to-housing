@@ -24,13 +24,10 @@
 # TLS stack does not trust its certificate chain. Checked by hand 2026-10-18.
 ^https?://(www\.)?housepriceindex\.ca
 
-# TEMPORARY, both are this project's own sites, not data sources:
-# - dougdevitre.github.io/access-to-housing: the "Deploy to GitHub Pages"
-#   workflow has failed on every run since April 2026, so the docs site 404s.
-# - dougdevitre.org: the Access To hub returned 404 on 2026-10-18.
-# Remove these lines once the sites serve again.
+# TEMPORARY: dougdevitre.github.io/access-to-housing is this project's own site,
+# not a data source. The "Deploy to GitHub Pages" workflow has failed on every
+# run since April 2026, so the docs site 404s. Remove this line once it serves again.
 ^https?://dougdevitre\.github\.io/access-to-housing
-^https?://(www\.)?dougdevitre\.org
 
 # BROKEN — needs a human (found 2026-10-23)
 ^https://walkscore\.com/?$
