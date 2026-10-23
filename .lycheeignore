@@ -31,3 +31,6 @@
 # Remove these lines once the sites serve again.
 ^https?://dougdevitre\.github\.io/access-to-housing
 ^https?://(www\.)?dougdevitre\.org
+
+# BROKEN — needs a human (found 2026-10-23)
+^https://walkscore\.com/?$
