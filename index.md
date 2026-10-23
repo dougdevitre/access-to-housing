@@ -2,7 +2,7 @@
 layout: home
 title: Home
 nav_order: 1
-description: "Access to Housing — PropTech Intelligence Platform with 80 analytical modules, 85+ data sources, and full Fair Housing compliance."
+description: "Access to Housing — PropTech Intelligence Platform with 82 analytical modules, 85+ data sources, and full Fair Housing compliance."
 permalink: /
 ---
 
@@ -17,7 +17,7 @@ PropTech Intelligence Platform — Market analysis, climate risk scoring, and Fa
 
 ---
 
-**7 Core Modules** · **7 Reference Pods** · **80 Analytical Frameworks** · **85+ Data Sources** · **Zero Protected-Class Proxies**
+**7 Core Modules** · **7 Reference Pods** · **82 Analytical Frameworks** · **85+ Data Sources** · **Zero Protected-Class Proxies**
 
 ---
 
@@ -74,7 +74,7 @@ Access to Housing is a [Claude Custom Skill](https://docs.claude.com) that acts 
 
 ---
 
-## Reference Pods — 80 Modules
+## Reference Pods — 82 Modules
 
 Seven specialized pods extend the core modules with deep analytical frameworks:
 

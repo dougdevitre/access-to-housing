@@ -93,7 +93,7 @@ These values appear in multiple files and must match:
 
 | Value | Current | Files |
 |-------|:-------:|-------|
-| Total modules | 80 | README.md, SKILL.md, CONTRIBUTING.md |
+| Total modules | 82 | README.md, SKILL.md, CONTRIBUTING.md |
 | Reference pods | 7 | README.md, SKILL.md, CONTRIBUTING.md |
 | Data sources | 85+ | README.md, SKILL.md |
 | SKILL version | 31.1 | SKILL.md, CHANGELOG.md |

@@ -3,10 +3,10 @@ layout: default
 title: Reference Pods
 nav_order: 4
 has_children: true
-description: "7 specialized analytical pods with 80 total modules covering market intelligence, investment, risk, property, brokerage, and community trust."
+description: "7 specialized analytical pods with 82 total modules covering market intelligence, investment, risk, property, brokerage, and community trust."
 ---
 
-# Reference Pods — 80 Modules
+# Reference Pods — 82 Modules
 
 Seven specialized pods extend the 7 core modules with deep analytical frameworks for specific use cases.
 

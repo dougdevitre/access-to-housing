@@ -23,7 +23,7 @@ Housing intelligence is only as good as its data. If you know of a reliable, pub
 **Include**: Source name, URL, update frequency, geographic coverage, and which module(s) it supports.
 
 ### 2. Expand Module Coverage
-Each of our 7 core modules and 7 reference pods (80 total modules) can be extended with region-specific frameworks, additional scoring rubrics, or new analytical approaches. We welcome:
+Each of our 7 core modules and 7 reference pods (82 total modules) can be extended with region-specific frameworks, additional scoring rubrics, or new analytical approaches. We welcome:
 - International market adaptations
 - State/local regulatory context additions
 - New scoring dimensions with clear methodology documentation
@@ -48,7 +48,7 @@ We take Fair Housing compliance seriously. If you identify any module, template,
 Many users of this project are not professional analysts. Contributions that improve plain-language explanations, add glossaries, or simplify output templates are valuable.
 
 ### 6. Reference Pod Expansion
-The `references/` directory contains 7 analytical pods with 80 total modules. Each pod can be expanded with additional frameworks, case studies, or methodology documentation.
+The `references/` directory contains 7 analytical pods with 82 total modules. Each pod can be expanded with additional frameworks, case studies, or methodology documentation.
 
 | Pod | Modules | Expansion Opportunities |
 |-----|:-------:|------------------------|
