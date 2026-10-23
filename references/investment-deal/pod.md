@@ -87,12 +87,12 @@ on structural supply/demand imbalance, capital flows, migration tailwinds, and i
 **Opportunity Tiers**:
 | Score | Tier |
 |-------|------|
-| 20–25 | Top Tier — high conviction, move now |
+| 20–25 | Top Tier — strongest signals on this framework |
 | 15–19 | Emerging — strong thesis with uncertainty |
 | 10–14 | Watch — monitor for improvement |
 | <10 | Avoid — material headwinds |
 
-**Hold Horizon**:
+**Typical Hold Horizon** (illustrative, not a recommendation; this is not investment advice):
 - High-growth, supply-constrained: 5–10 yr
 - Value-add, improving fundamentals: 3–5 yr
 - Stabilized income: 7–15 yr

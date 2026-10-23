@@ -83,7 +83,7 @@ and key fields to verify.
 - Project inventory (type, investment amount, timeline, value lift estimate)
 - Value lift timeline by infrastructure type
 
-**Verification**: Value lift ranges should be Transit 3–7yr 10–25%, Highway 2–5yr 5–15%, Major employer 1–3yr 5–20%.
+**Verification**: Value lift ranges are labeled illustrative and match SKILL.md (Transit 3–7yr 10–25%, Highway 2–5yr 5–15%, Major employer 1–3yr 5–20%).
 
 ---
 

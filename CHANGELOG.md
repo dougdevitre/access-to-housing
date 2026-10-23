@@ -4,6 +4,27 @@ All notable changes to the Access to Housing platform are documented here.
 
 ---
 
+## [Unreleased]
+
+### Added
+- **Urgent Housing Help** section in SKILL.md, checked before any module: 911, the National
+  Domestic Violence Hotline, 988 (with Spanish options), keeping the eviction court date, LSC legal
+  aid, 211 and HUD housing counseling (1-800-569-4287). A matching first row in the Module
+  Selection Guide.
+- **Location and language rules** in the Core Operating Principles: ask the user's state (or
+  country) once after any danger check, never hold back emergency numbers, label state-only
+  content; reply in the user's language.
+- **Tenant Risk Scoring**: the FCRA adverse action notice step, income ratios on the tenant's share
+  for voucher holders, and care with dismissed, sealed or expunged eviction filings.
+
+### Changed
+- Value-lift ranges and hold horizons are labeled illustrative; "high-conviction, move now" is now
+  "strongest signals on this framework"; Module 7 output carries a not-investment-advice caveat.
+- All seven federally protected classes are listed in the Tenant Risk Scoring Fair Housing note
+  and the SKILL.md principle now includes color.
+- `assets/international-guide.md` links to CONTRIBUTING.md on GitHub, since the installed skill
+  doesn't ship it.
+
 ## [31.1] — 2026-10-22
 
 ### Added

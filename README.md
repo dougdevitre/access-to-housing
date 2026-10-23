@@ -513,8 +513,8 @@ flowchart LR
                     INVESTMENT OPPORTUNITY TIERS
 
      High Supply  │  Watch (10-14)    │  Top Tier (20-25)
-      Advantage   │  Monitor for      │  High conviction
-                  │  improvement      │  Move now
+      Advantage   │  Monitor for      │  Strongest signals
+                  │  improvement      │  on framework
                   │                   │
     ──────────────┼───────────────────┼──────────────────
                   │                   │
