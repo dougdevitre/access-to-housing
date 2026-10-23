@@ -18,6 +18,9 @@ on:
       - "DISCLAIMER.md"
       - "LICENSE"
       - "scripts/build-skill-zip.sh"
+      - "scripts/check-facts.mjs"
+      - "scripts/test/**"
+      - "facts/**"
       - ".github/scripts/check-skill-frontmatter.py"
       - ".github/workflows/skill-package.yml"
   push:
@@ -30,6 +33,9 @@ on:
       - "DISCLAIMER.md"
       - "LICENSE"
       - "scripts/build-skill-zip.sh"
+      - "scripts/check-facts.mjs"
+      - "scripts/test/**"
+      - "facts/**"
       - ".github/scripts/check-skill-frontmatter.py"
       - ".github/workflows/skill-package.yml"
   workflow_dispatch:
@@ -46,6 +52,15 @@ jobs:
 
       - name: Make sure PyYAML is available
         run: python3 -c 'import yaml' 2>/dev/null || { sudo apt-get update -q && sudo apt-get install -y -q python3-yaml; }
+
+      # facts/ledger.json: every phone number, dollar figure, deadline and
+      # program-status claim, with its primary source and verified date. Fails
+      # when a fact is past its recheck date, a listed file is missing, or the
+      # text no longer carries the ledger's value.
+      - name: Check the fact ledger
+        run: |
+          node --test scripts/test/check-facts.test.mjs
+          node scripts/check-facts.mjs
 
       - name: Build dist/access-to-housing.zip
         run: |
