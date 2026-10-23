@@ -31,8 +31,3 @@
 # Remove these lines once the sites serve again.
 ^https?://dougdevitre\.github\.io/access-to-housing
 ^https?://(www\.)?dougdevitre\.org
-
-# The install file is published by .github/workflows/skill-package.yml when this
-# change reaches main, so it 404s until the first skill-latest release exists.
-# TEMPORARY: remove this line once the release is published.
-^https://github\.com/dougdevitre/access-to-housing/releases/download/skill-latest/

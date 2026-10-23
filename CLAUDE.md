@@ -4,7 +4,7 @@
 
 Access to Housing is a **knowledge-based PropTech intelligence platform** delivered as a Claude Custom Skill (`.skill` file). It is not a traditional code project — there is no runtime, no build step, no tests to run. All files are Markdown documentation that define analytical frameworks, scoring rubrics, data source references, and output templates.
 
-**Version**: 31.0
+**Version**: 31.1
 **License**: MIT
 **Author**: Doug Devitre (CoTrackPro)
 
@@ -96,7 +96,7 @@ These values appear in multiple files and must match:
 | Total modules | 80 | README.md, SKILL.md, CONTRIBUTING.md |
 | Reference pods | 7 | README.md, SKILL.md, CONTRIBUTING.md |
 | Data sources | 85+ | README.md, SKILL.md |
-| SKILL version | 31.0 | SKILL.md, CHANGELOG.md |
+| SKILL version | 31.1 | SKILL.md, CHANGELOG.md |
 
 ## Conventions
 

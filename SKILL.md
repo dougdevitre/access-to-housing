@@ -3,9 +3,9 @@ name: access-to-housing
 layout: default
 title: Skill Definition
 nav_order: 2
-description: "Core skill definition — 7 modules, scoring frameworks, and cross-module references."
+description: "PropTech and housing-market analyst for real estate. Use for market and supply intelligence (new-construction detection, permit pipelines, supply forecasts, housing shortage, price indexes, affordability, housing cycles, migration and demographic demand); investment and deal analysis (underwriting, cap rate, NOI, IRR, syndication, land, development feasibility, commercial, MLS data); property intelligence (valuation, pricing, listing performance, rental and short-term rental, property management, livability scored on objective infrastructure metrics); climate, construction, zoning and tenant risk; brokerage operations and strategy (CRM, leads, pipeline, negotiation, transactions, marketing, recruiting, growth, financials); and community trust (zoning hearings, 311 conditions, displacement risk, government accountability, housing resources, civic participation). Fair Housing-safe."
 metadata:
-  version: "31.0"
+  version: "31.1"
   author: Doug Devitre
 ---
 
@@ -66,6 +66,33 @@ questions, or **Neighborhood Livability Score** for buyer/renter questions.
 | What housing resources exist in this area? | Community Trust Pod: Neighborhood Resource Directory |
 | How can I participate in local housing decisions? | Community Trust Pod: Community Engagement Guide |
 | Full market brief | All 7 modules in order, wrapped in Platform Brief |
+
+---
+
+## Reference Files — When to Load Them
+
+This file holds the 7 core modules and the Community Trust pod. The deeper modules live in the pod
+files below. Open a pod file only when the user's question matches its topics, and open only the
+pods you need. Before delivering any scoring or neighborhood analysis, run the Pre-Delivery
+Compliance Checklist in `FAIR-HOUSING.md`.
+
+| Pod | Topics it covers | Path |
+|-----|------------------|------|
+| Market Intelligence | New-construction detection, permit pipelines, supply forecasts, housing shortage, price indexes, macro and national dashboards, global markets, housing cycles, affordability, demographic forecasting (household formation, age cohorts), urban growth, migration flows, megacities, market prediction, scenario forecasting | `references/market-intelligence/pod.md` |
+| Investment & Deal | Opportunity scanning, underwriting (NOI, cap rate, IRR, cash-on-cash), portfolio review and rebalancing, private equity and syndication, acquisition and land deals, development feasibility, tokenization, cross-border capital, infrastructure investment, commercial analysis, MLS data and ingestion | `references/investment-deal/pod.md` |
+| Risk & Climate | Climate migration, climate risk (flood, wildfire, sea level, insurance), construction risk, construction supply chain, zoning intelligence, tenant risk scoring | `references/risk-climate/pod.md` |
+| Property Intelligence | Livability scoring on objective infrastructure metrics, infrastructure growth heatmaps, automated and full valuation, pricing and pricing strategy, listing performance, rental and short-term rental analysis, property management | `references/property-intelligence/pod.md` |
+| Brokerage Ops | CRM and CRM health, lead generation, pipeline prioritization, conversion, offer probability, buyer behavior and search, seller readiness and feedback, showing analysis, negotiation, transactions and timelines, client experience, marketing and marketing calendar, task prioritization | `references/brokerage-ops/pod.md` |
+| Brokerage Strategy | Brokerage growth simulation, recruiting and recruit scoring, strategic planning, CFO dashboard, executive reporting, production analytics, agent training, agent wellbeing | `references/brokerage-strategy/pod.md` |
+| Community Trust | Zoning hearings and council votes, community-reported conditions (311, code violations), displacement early warning, government accountability, neighborhood resource directory, civic engagement | `references/community-trust/pod.md` |
+
+Supporting assets:
+
+| Load | When |
+|------|------|
+| `assets/data-sources.md` | You need a named source, link or data vintage for a metric, or the user asks where data comes from. Cite the source and its vintage; never invent data. |
+| `assets/output-schemas.md` | The user wants structured or JSON output from a scoring module, or a Platform Brief in machine-readable form. |
+| `assets/glossary.md` | The user is new to real estate terms, or asks what a term means. Use its plain-language definitions. |
 
 ---
 
