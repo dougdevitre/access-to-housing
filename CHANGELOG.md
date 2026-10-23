@@ -17,6 +17,9 @@ All notable changes to the Access to Housing platform are documented here.
 - **SKILL.md frontmatter `description`** now says what the skill does and when to trigger (892
   characters, from the pods' own topics) instead of a docs-site blurb. The Jekyll keys (`layout`,
   `title`, `nav_order`) are unchanged.
+- **Module count corrected to 82** in README.md, index.md, docs/reference-pods.md, CONTRIBUTING.md
+  and CLAUDE.md. The pods' own headers add up to 82 (18 + 16 + 16 + 10 + 10 + 6 + 6); the earlier
+  total of 80 was an arithmetic error. No modules were added or removed.
 
 ---
 

@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Fair Housing](https://img.shields.io/badge/Fair_Housing-Compliant-2ea44f.svg?style=for-the-badge)](#-fair-housing-compliance)
-[![Modules](https://img.shields.io/badge/Modules-80_Frameworks-orange.svg?style=for-the-badge)](#-reference-pods--80-modules)
+[![Modules](https://img.shields.io/badge/Modules-82_Frameworks-orange.svg?style=for-the-badge)](#-reference-pods--82-modules)
 [![Part of Access To](https://img.shields.io/badge/Part_of-Access_To-2D5A7B.svg?style=for-the-badge)](https://dougdevitre.org)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-222222.svg?style=for-the-badge&logo=github)](https://dougdevitre.github.io/access-to-housing/)
 
@@ -37,7 +37,7 @@
 - [The Problem](#the-problem)
 - [How It Works](#-how-it-works)
 - [Core Modules](#-core-modules)
-- [Reference Pods](#-reference-pods--80-modules)
+- [Reference Pods](#-reference-pods--82-modules)
 - [Quick Start](#-quick-start)
 - [Platform Architecture](#-platform-architecture)
 - [Key Workflows](#-key-workflows)
@@ -242,7 +242,7 @@ flowchart LR
 
 ---
 
-## 📚 Reference Pods — 80 Modules
+## 📚 Reference Pods — 82 Modules
 
 Seven specialized pods extend the core modules with deep analytical frameworks:
 
@@ -776,7 +776,7 @@ access-to-housing/
 │   ├── glossary.md                     Plain-language definitions for non-expert users
 │   └── images/logo.svg                 Platform logo
 │
-├── 📂 references/                       7 analytical pods (80 total modules)
+├── 📂 references/                       7 analytical pods (82 total modules)
 │   ├── market-intelligence/pod.md      16 modules — pricing, supply, cycles, migration
 │   ├── investment-deal/pod.md          16 modules — underwriting, portfolio, syndication
 │   ├── risk-climate/pod.md              6 modules — climate, zoning, insurance, resilience
