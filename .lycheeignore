@@ -31,3 +31,9 @@
 
 # BROKEN — needs a human (found 2026-10-23)
 ^https://walkscore\.com/?$
+
+# FEMA Flood Map Service Center. The site is live (its contact page loaded on
+# 2026-10-23), but it resets connections from GitHub's CI runners
+# ("Connection reset by peer" on two runs in a row), so the checker can't reach it.
+# Remove this line once the link check can reach msc.fema.gov again.
+^https?://msc\.fema\.gov

@@ -253,12 +253,32 @@ to support leasing decisions, portfolio underwriting, and rental pricing.
 
 **Risk Signal Adjustments**:
 - Student / co-signer situations: Require co-signer with 4x rent income
-- Section 8 / voucher holders: Stable income source; source-of-income protections apply in some states and cities
+- Section 8 / voucher holders: Stable income source; source-of-income protections apply in some states and cities.
+  Apply any income-to-rent ratio to the tenant's share of the rent only, since the housing
+  authority pays the rest directly. Some local source-of-income rules require this (for example,
+  Cook County, IL guidance: a $500 tenant share supports a $1,500 income minimum, not 3x the full
+  rent). Check the rules where the property is.
+- Eviction records: A filing is not a judgment. A case can end in dismissal or settlement, and some
+  states let tenants seal or expunge eviction records. Don't treat a filing alone as an eviction,
+  don't use a sealed or expunged record, and check whether state or local law limits the use of
+  eviction-case information in screening.
 - Short employment tenure (<6 months): Higher weight on credit and reserves
 - Recent bankruptcy: Review discharge date and post-BK credit behavior
 
+**Adverse Action Notice (FCRA)**: If a consumer report (credit or tenant screening) played any
+part in denying an application, requiring a co-signer, or charging a higher deposit or rent, the
+landlord must give the applicant an adverse action notice. Per FTC and CFPB guidance, it includes:
+the name, address and phone number of the company that supplied the report; a statement that the
+company did not make the decision and can't give the specific reasons for it; the applicant's
+right to a free copy of the report if requested within 60 days; and the right to dispute
+inaccurate or incomplete information. If a credit score was used, the notice must also include the
+score and related details. Written notice is the best practice. Educational summary only; confirm
+current requirements with an attorney.
+
 **Fair Housing Note**: Scoring criteria must be applied uniformly to all applicants.
 Income source discrimination (e.g., refusing voucher holders) is prohibited in many jurisdictions.
-Never use race, national origin, familial status, or disability as screening criteria.
+Never use any federally protected characteristic as a screening criterion: race, color, religion,
+national origin, sex, familial status, or disability. State and local laws may add further
+protected classes, so check the rules where the property is.
 
 **Tools**: TransUnion SmartMove, Experian Connect, Avail, TurboTenant, AppFolio

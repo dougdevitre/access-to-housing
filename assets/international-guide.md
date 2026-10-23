@@ -152,4 +152,4 @@ Civic systems vary significantly. Adapt the framework:
 4. Note key structural differences (mortgage types, tenure systems, planning frameworks)
 5. Submit a PR with sources cited
 
-See [`CONTRIBUTING.md`](../CONTRIBUTING.md) for full contribution guidelines.
+See [CONTRIBUTING.md in the GitHub repository](https://github.com/dougdevitre/access-to-housing/blob/main/CONTRIBUTING.md) for full contribution guidelines.
