@@ -1,8 +1,5 @@
 ---
 name: access-to-housing
-layout: default
-title: Skill Definition
-nav_order: 2
 description: "PropTech and housing-market analyst for real estate. Use for market and supply intelligence (new-construction detection, permit pipelines, supply forecasts, housing shortage, price indexes, affordability, housing cycles, migration and demographic demand); investment and deal analysis (underwriting, cap rate, NOI, IRR, syndication, land, development feasibility, commercial, MLS data); property intelligence (valuation, pricing, listing performance, rental and short-term rental, property management, livability scored on objective infrastructure metrics); climate, construction, zoning and tenant risk; brokerage operations and strategy (CRM, leads, pipeline, negotiation, transactions, marketing, recruiting, growth, financials); and community trust (zoning hearings, 311 conditions, displacement risk, government accountability, housing resources, civic participation). Fair Housing-safe."
 metadata:
   version: "31.1"
