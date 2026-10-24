@@ -7,47 +7,63 @@
       "claim": "HUD line to find a HUD-approved housing counseling agency: 800-569-4287 (TTY 202-708-1455)",
       "value": "1-800-569-4287",
       "source": "https://www.hud.gov/stat/sfh/housing-counseling",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
-      "files": ["SKILL.md"]
+      "files": [
+        "SKILL.md"
+      ]
     },
     {
       "id": "national-dv-hotline",
       "claim": "National Domestic Violence Hotline, 24/7: 1-800-799-SAFE (7233), or text START to 88788",
       "value": "1-800-799-7233",
-      "match": ["1-800-799-7233", "START to 88788"],
+      "match": [
+        "1-800-799-7233",
+        "START to 88788"
+      ],
       "source": "https://www.thehotline.org/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
-      "files": ["SKILL.md"]
+      "files": [
+        "SKILL.md"
+      ]
     },
     {
       "id": "988-spanish-options",
       "claim": "988 Suicide & Crisis Lifeline: call or text 988; in Spanish, press 2 or text AYUDA to 988",
       "value": "call 988 and press 2, or text AYUDA to 988",
-      "match": ["press 2", "AYUDA to 988"],
+      "match": [
+        "press 2",
+        "AYUDA to 988"
+      ],
       "source": "https://988lifeline.org/get-help/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
-      "files": ["SKILL.md"]
+      "files": [
+        "SKILL.md"
+      ]
     },
     {
       "id": "reg-a-tier-2-limit",
       "claim": "Regulation A Tier 2 offerings are limited to $75 million in a 12-month period and must be qualified by the SEC before sales",
       "value": "Up to $75M",
       "source": "https://www.sec.gov/resources-small-businesses/regulation-guidance-issuers",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 90,
-      "files": ["references/investment-deal/pod.md"]
+      "files": [
+        "references/investment-deal/pod.md"
+      ]
     },
     {
       "id": "reg-cf-limit",
       "claim": "Regulation Crowdfunding issuers may raise a maximum of $5,000,000 in a 12-month period, open to non-accredited investors within per-investor limits",
       "value": "Up to $5M",
       "source": "https://www.sec.gov/resources-small-businesses/regulation-crowdfunding-guidance-issuers",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 90,
-      "files": ["references/investment-deal/pod.md"]
+      "files": [
+        "references/investment-deal/pod.md"
+      ]
     }
   ]
 }
